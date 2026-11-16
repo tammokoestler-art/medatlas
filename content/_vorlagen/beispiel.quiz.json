@@ -1,0 +1,8 @@
+{
+  "titel": "Quiz: Thema",
+  "reihenfolge": 3,
+  "fragen": [
+    { "id": "q01", "einheit": "kurzname-der-einheit", "frage": "Frage?", "antworten": ["A", "B", "C", "D"], "richtig": 0, "erklaerung": "Warum ist A richtig?" }
+  ],
+  "benennen": { "szene": "kurzname-der-szene", "strukturen": ["ID-aus-der-szene"] }
+}

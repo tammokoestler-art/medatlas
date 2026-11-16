@@ -1,0 +1,9 @@
+{
+  "titel": "Trainer: Thema",
+  "reihenfolge": 10,
+  "gruppen": [
+    { "id": "gruppe", "titel": "Gruppenname", "eintraege": [
+      { "begriff": "hyper-", "bedeutung": "über, zu viel", "herkunft": "griech.", "beispiel": "Hypertonie – zu hoher Blutdruck" }
+    ] }
+  ]
+}

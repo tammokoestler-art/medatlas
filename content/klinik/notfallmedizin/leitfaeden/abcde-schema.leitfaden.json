@@ -1,0 +1,339 @@
+{
+ "titel": "ABCDE-Schema",
+ "beschreibung": "Strukturierte Erstuntersuchung kritisch kranker oder verletzter Patienten. Grundsatz: „Treat first what kills first“ – behandle zuerst, was zuerst tötet.",
+ "reihenfolge": 1,
+ "quellen": [
+  "Inhaltlich orientiert an: ERC Guidelines 2025 (European Resuscitation Council), Kapitel Advanced Life Support – ABCDE-Vorgehen; veröffentlicht 22.10.2025 in Resuscitation 215; deutsche Kurzfassung über den Deutschen Rat für Wiederbelebung (GRC)",
+  "S3-Leitlinie Polytrauma/Schwerverletzten-Behandlung, AWMF-Register-Nr. 187-023, Version 5.0 – Priorisierung kritischer Blutungen",
+  "Eigene, vereinfachte Lernzusammenfassung der KI in eigenen Worten – kein klinischer Algorithmus, nicht ärztlich gegengelesen"
+ ],
+ "zu_pruefen": [
+  "Die Schritte wurden nicht Zeile für Zeile mit dem Originaltext der ERC-Leitlinien 2025 abgeglichen.",
+  "Zielwerte, Medikamente, Dosierungen und Zeitgrenzen stehen bewusst nicht im Leitfaden – sie sind ausschließlich der Quelle zu entnehmen.",
+  "Lokale Protokolle (Rettungsdienstbereich, Klinik) können in Details abweichen."
+ ],
+ "knoten": [
+  {
+   "id": "start",
+   "art": "start",
+   "titel": "Notfallpatient",
+   "kurz": "Kritisch krank oder verletzt"
+  },
+  {
+   "id": "sicher",
+   "art": "schritt",
+   "titel": "Eigenschutz und Ersteindruck",
+   "kurz": "Sicher? Wie wirkt der Patient?",
+   "details": [
+    "Ist die Umgebung sicher (Verkehr, Feuer, Strom)? Eigenschutz geht vor.",
+    "Handschuhe anziehen.",
+    "Ersteindruck in wenigen Sekunden: Hautfarbe, Atmung, Bewegung, Reaktion – wirkt der Patient kritisch?",
+    "Früh Hilfe holen: Notruf 112 bzw. im Krankenhaus das Notfallteam."
+   ]
+  },
+  {
+   "id": "blutung",
+   "art": "entscheidung",
+   "titel": "Lebensbedrohliche äußere Blutung?",
+   "kurz": "spritzend, stark fließend"
+  },
+  {
+   "id": "blutstopp",
+   "art": "massnahme",
+   "titel": "Blutung sofort stoppen",
+   "kurz": "Kommt vor allem anderen",
+   "details": [
+    "Kräftiger direkter Druck auf die Wunde.",
+    "Druckverband anlegen.",
+    "An Arm oder Bein, wenn Druck nicht reicht: Tourniquet (Abbindesystem) körpernah der Wunde anlegen, Uhrzeit notieren.",
+    "Deshalb schreibt man bei Verletzten oft <C>ABCDE oder xABCDE: die kritische Blutung (critical bleeding / exsanguination) zuerst."
+   ]
+  },
+  {
+   "id": "bewusst",
+   "art": "entscheidung",
+   "titel": "Reagiert der Patient und atmet er normal?",
+   "kurz": "ansprechen, anfassen, Atmung prüfen"
+  },
+  {
+   "id": "rea",
+   "art": "warnung",
+   "titel": "Reanimation beginnen",
+   "kurz": "Keine Reaktion + keine normale Atmung",
+   "details": [
+    "Notruf 112 / Reanimationsteam alarmieren.",
+    "Herzdruckmassage in der Mitte des Brustkorbs: fest und schnell drücken (Tiefe und Frequenz laut Quelle).",
+    "Wer es gelernt hat, wechselt Kompressionen und Beatmungen ab (Verhältnis laut Quelle); sonst nur drücken.",
+    "Defibrillator (AED) holen lassen und den Anweisungen folgen.",
+    "Schnappatmung ist keine normale Atmung!"
+   ]
+  },
+  {
+   "id": "a",
+   "art": "schritt",
+   "kuerzel": "A",
+   "titel": "Airway – Atemweg",
+   "kurz": "Ist der Atemweg frei?",
+   "details": [
+    "Spricht der Patient normal? Dann ist der Atemweg frei.",
+    "Hören: Schnarchen (Zunge fällt zurück), Gurgeln (Flüssigkeit), Stridor (pfeifendes Geräusch bei Engstelle).",
+    "Sehen: Mund öffnen – Fremdkörper, Blut, Erbrochenes, Schwellung?",
+    "Bei Verletzten: Halswirbelsäule mitdenken und möglichst wenig bewegen."
+   ]
+  },
+  {
+   "id": "a_frage",
+   "art": "entscheidung",
+   "titel": "Atemweg frei?"
+  },
+  {
+   "id": "a_tun",
+   "art": "massnahme",
+   "titel": "Atemweg freimachen",
+   "details": [
+    "Kopf überstrecken und Kinn anheben. Bei Verdacht auf Verletzung der Halswirbelsäule: Unterkiefer vorschieben (Esmarch-Handgriff), Kopf nicht überstrecken.",
+    "Sichtbare Fremdkörper entfernen, Flüssigkeit absaugen.",
+    "Hilfsmittel: Guedel-Tubus (durch den Mund) oder Wendl-Tubus (durch die Nase).",
+    "Bewusstlos, aber normale Atmung: stabile Seitenlage.",
+    "Reicht das nicht: erweiterte Atemwegssicherung durch Erfahrene (z. B. Intubation)."
+   ]
+  },
+  {
+   "id": "b",
+   "art": "schritt",
+   "kuerzel": "B",
+   "titel": "Breathing – Atmung",
+   "kurz": "Atmet der Patient ausreichend?",
+   "details": [
+    "Atemfrequenz auszählen: zu schnell, zu langsam oder normal? (Normwerte laut Quelle)",
+    "Atemarbeit: Einsatz der Atemhilfsmuskulatur, Einziehungen, kann der Patient ganze Sätze sprechen?",
+    "Hebt sich der Brustkorb auf beiden Seiten gleich?",
+    "Abhören mit dem Stethoskop: Atemgeräusch beidseits vorhanden?",
+    "Sauerstoffsättigung (SpO₂) mit dem Pulsoxymeter messen.",
+    "Zyanose (Blaufärbung von Lippen und Haut)?"
+   ]
+  },
+  {
+   "id": "b_frage",
+   "art": "entscheidung",
+   "titel": "Atmung ausreichend?"
+  },
+  {
+   "id": "b_tun",
+   "art": "massnahme",
+   "titel": "Atmung unterstützen",
+   "details": [
+    "Sauerstoff geben und an der Sauerstoffsättigung ausrichten. Die Zielbereiche stehen in der Quelle; für Patienten mit Risiko einer CO₂-Anreicherung (z. B. COPD) gelten niedrigere Ziele.",
+    "Oberkörper hoch lagern, wenn der Kreislauf es erlaubt.",
+    "Atmet der Patient zu langsam oder zu flach: Beutel-Masken-Beatmung.",
+    "Lebensbedrohliche Ursachen erkennen und behandeln lassen, z. B. Spannungspneumothorax (Entlastung), schwerer Asthmaanfall."
+   ]
+  },
+  {
+   "id": "c",
+   "art": "schritt",
+   "kuerzel": "C",
+   "titel": "Circulation – Kreislauf",
+   "kurz": "Ist der Kreislauf stabil?",
+   "details": [
+    "Puls tasten: Frequenz, Rhythmus, kräftig oder schwach?",
+    "Haut: blass, kalt, schweißig? Das sind Schockzeichen.",
+    "Rekapillarisierungszeit: Fingernagel kurz drücken und beobachten, wie schnell er wieder rosig wird (Normwert laut Quelle).",
+    "Blutdruck messen, EKG anlegen.",
+    "Nach Blutungen suchen – auch nach inneren: Brustkorb, Bauch, Becken, Oberschenkel."
+   ]
+  },
+  {
+   "id": "c_frage",
+   "art": "entscheidung",
+   "titel": "Kreislauf stabil?"
+  },
+  {
+   "id": "c_tun",
+   "art": "massnahme",
+   "titel": "Kreislauf stabilisieren",
+   "details": [
+    "Blutungen stillen (Druck, Druckverband, Tourniquet).",
+    "Venenzugang legen.",
+    "Flüssigkeit über die Vene geben, angepasst an die Ursache.",
+    "Verdacht auf Beckenbruch: Beckenschlinge anlegen.",
+    "Wärmeerhalt – Auskühlung verschlechtert die Blutgerinnung."
+   ]
+  },
+  {
+   "id": "d",
+   "art": "schritt",
+   "kuerzel": "D",
+   "titel": "Disability – Neurologie",
+   "kurz": "Bewusstsein, Pupillen, Blutzucker",
+   "details": [
+    "Bewusstsein einstufen: AVPU (Alert – wach, Voice – reagiert auf Ansprache, Pain – reagiert auf Schmerzreiz, Unresponsive – keine Reaktion) oder Glasgow Coma Scale.",
+    "Pupillen: gleich groß? Reagieren sie auf Licht?",
+    "Blutzucker messen – eine Unterzuckerung ist häufig und schnell behandelbar.",
+    "Arme und Beine: Kraft und Gefühl auf beiden Seiten gleich?",
+    "Verdacht auf Schlaganfall: FAST-Test (Face, Arms, Speech, Time)."
+   ]
+  },
+  {
+   "id": "d_frage",
+   "art": "entscheidung",
+   "titel": "Neurologisch auffällig?"
+  },
+  {
+   "id": "d_tun",
+   "art": "massnahme",
+   "titel": "Ursache behandeln, Atemweg schützen",
+   "details": [
+    "Unterzuckerung: Glukose geben (wach: zu trinken; sonst über die Vene).",
+    "Bewusstlos mit Atmung: Seitenlage, Atemweg überwachen. Bei tiefer Bewusstlosigkeit sind die Schutzreflexe gefährdet (Grenzwerte laut Quelle).",
+    "Verdacht auf Schlaganfall: Zeit des Symptombeginns notieren, schnell in eine Klinik mit Stroke Unit.",
+    "Krampfanfall: vor Verletzung schützen, nichts in den Mund stecken."
+   ]
+  },
+  {
+   "id": "e",
+   "art": "schritt",
+   "kuerzel": "E",
+   "titel": "Exposure – Entkleiden und Umgebung",
+   "kurz": "Alles ansehen, Wärme erhalten",
+   "details": [
+    "So weit entkleiden wie nötig und den ganzen Körper untersuchen – auch den Rücken.",
+    "Körpertemperatur messen.",
+    "Danach sofort wieder zudecken: Wärmeerhalt und Würde des Patienten.",
+    "Kurzanamnese nach SAMPLER: Symptome, Allergien, Medikamente, Patientengeschichte (Vorerkrankungen), letzte Mahlzeit, Ereignis, Risikofaktoren."
+   ]
+  },
+  {
+   "id": "re",
+   "art": "schritt",
+   "titel": "Re-Evaluation",
+   "kurz": "Immer wieder von vorn prüfen",
+   "details": [
+    "Nach jeder Maßnahme prüfen: Hat sie geholfen?",
+    "Bei jeder Verschlechterung sofort zurück zu A.",
+    "Regelmäßig das ganze Schema wiederholen, bis der Patient stabil und übergeben ist."
+   ]
+  },
+  {
+   "id": "ende",
+   "art": "ende",
+   "titel": "Übergabe und Weiterbehandlung",
+   "kurz": "strukturiert übergeben"
+  }
+ ],
+ "kanten": [
+  {
+   "von": "start",
+   "nach": "sicher"
+  },
+  {
+   "von": "sicher",
+   "nach": "blutung"
+  },
+  {
+   "von": "blutung",
+   "nach": "blutstopp",
+   "text": "ja"
+  },
+  {
+   "von": "blutung",
+   "nach": "bewusst",
+   "text": "nein"
+  },
+  {
+   "von": "blutstopp",
+   "nach": "bewusst"
+  },
+  {
+   "von": "bewusst",
+   "nach": "rea",
+   "text": "nein"
+  },
+  {
+   "von": "bewusst",
+   "nach": "a",
+   "text": "ja"
+  },
+  {
+   "von": "a",
+   "nach": "a_frage"
+  },
+  {
+   "von": "a_frage",
+   "nach": "a_tun",
+   "text": "nein"
+  },
+  {
+   "von": "a_frage",
+   "nach": "b",
+   "text": "ja"
+  },
+  {
+   "von": "a_tun",
+   "nach": "b"
+  },
+  {
+   "von": "b",
+   "nach": "b_frage"
+  },
+  {
+   "von": "b_frage",
+   "nach": "b_tun",
+   "text": "nein"
+  },
+  {
+   "von": "b_frage",
+   "nach": "c",
+   "text": "ja"
+  },
+  {
+   "von": "b_tun",
+   "nach": "c"
+  },
+  {
+   "von": "c",
+   "nach": "c_frage"
+  },
+  {
+   "von": "c_frage",
+   "nach": "c_tun",
+   "text": "nein"
+  },
+  {
+   "von": "c_frage",
+   "nach": "d",
+   "text": "ja"
+  },
+  {
+   "von": "c_tun",
+   "nach": "d"
+  },
+  {
+   "von": "d",
+   "nach": "d_frage"
+  },
+  {
+   "von": "d_frage",
+   "nach": "d_tun",
+   "text": "ja"
+  },
+  {
+   "von": "d_frage",
+   "nach": "e",
+   "text": "nein"
+  },
+  {
+   "von": "d_tun",
+   "nach": "e"
+  },
+  {
+   "von": "e",
+   "nach": "re"
+  },
+  {
+   "von": "re",
+   "nach": "ende",
+   "text": "stabil"
+  }
+ ]
+}

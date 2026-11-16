@@ -1,0 +1,12 @@
+{
+  "titel": "Mindmap: Thema",
+  "reihenfolge": 1,
+  "knoten": [
+    { "id": "mitte", "text": "Thema" },
+    { "id": "ast1", "text": "Ast", "unter": "mitte" },
+    { "id": "blatt1", "text": "Begriff\nzweite Zeile", "unter": "ast1", "einheit": "kurzname-der-einheit", "notiz": "optional" }
+  ],
+  "verbindungen": [
+    { "von": "blatt1", "nach": "ast1", "text": "Beschriftung des gestrichelten Pfeils" }
+  ]
+}

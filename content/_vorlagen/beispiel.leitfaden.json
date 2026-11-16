@@ -1,0 +1,19 @@
+{
+  "titel": "Name des Ablaufs",
+  "beschreibung": "Ein Satz: wofür ist der Ablauf?",
+  "reihenfolge": 1,
+  "quellen": ["Leitlinie mit Herausgeber, Registernummer, Version und Stand", "Hinweis: eigene Lernzusammenfassung, nicht ärztlich gegengelesen"],
+  "zu_pruefen": ["Was wurde nicht mit dem Original abgeglichen?"],
+  "knoten": [
+    { "id": "start", "art": "start", "titel": "Ausgangslage" },
+    { "id": "s1", "art": "schritt", "kuerzel": "A", "titel": "Untersuchen", "kurz": "Kurzzeile", "details": ["Punkt 1", "Punkt 2"] },
+    { "id": "e1", "art": "entscheidung", "titel": "Ja/Nein-Frage?" },
+    { "id": "m1", "art": "massnahme", "titel": "Maßnahme (steht rechts neben dem Hauptweg)", "details": ["Keine Dosierungen – „laut Quelle“"] },
+    { "id": "w1", "art": "warnung", "titel": "Sofortmaßnahme (steht links)", "details": [] },
+    { "id": "ende", "art": "ende", "titel": "Ende" }
+  ],
+  "kanten": [
+    { "von": "start", "nach": "s1" }, { "von": "s1", "nach": "e1" },
+    { "von": "e1", "nach": "m1", "text": "nein" }, { "von": "e1", "nach": "ende", "text": "ja" }, { "von": "m1", "nach": "ende" }
+  ]
+}

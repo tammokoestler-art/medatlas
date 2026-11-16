@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-thema=dunkel], [data-thema=dunkel] *));
+
+:root {
+  --bg: #f6f7fb; --flaeche: #ffffff; --flaeche2: #eef0f6; --rand: #e2e5ee; --text: #171a22; --leise: #5b6375;
+  --fach: #64748b; --schatten: 0 1px 2px rgb(20 24 40 / .06), 0 8px 24px -12px rgb(20 24 40 / .18);
+  color-scheme: light;
+}
+[data-thema=dunkel] {
+  --bg: #0f1218; --flaeche: #171b24; --flaeche2: #1f2430; --rand: #2a3040; --text: #e9ecf3; --leise: #98a1b5;
+  --schatten: 0 1px 2px rgb(0 0 0 / .4), 0 10px 30px -12px rgb(0 0 0 / .7);
+  color-scheme: dark;
+}
+@theme inline {
+  --color-bg: var(--bg); --color-flaeche: var(--flaeche); --color-flaeche2: var(--flaeche2); --color-rand: var(--rand);
+  --color-text: var(--text); --color-leise: var(--leise); --color-fach: var(--fach);
+  --color-fach-zart: color-mix(in srgb, var(--fach) 14%, var(--flaeche));
+  --color-fach-text: color-mix(in srgb, var(--fach) 72%, var(--text));
+  --shadow-karte: var(--schatten);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+html, body, #root { height: 100%; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-sans); -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
+* { scrollbar-width: thin; scrollbar-color: var(--rand) transparent; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; border-radius: 6px; }
+
+.karte { background: var(--flaeche); border: 1px solid var(--rand); border-radius: 18px; box-shadow: var(--schatten); }
+.knopf { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .6rem 1rem; border-radius: 12px; font-weight: 600; font-size: .92rem;
+  background: var(--flaeche2); border: 1px solid var(--rand); transition: transform .12s, background .15s, border-color .15s; min-height: 42px; }
+.knopf:hover { border-color: var(--fach); }
+.knopf:active { transform: scale(.97); }
+.knopf-fach { background: var(--fach); border-color: transparent; color: #fff; }
+.knopf-fach:hover { filter: brightness(1.08); }
+.marke { display: inline-flex; align-items: center; gap: .3rem; padding: .15rem .55rem; border-radius: 999px; font-size: .74rem; font-weight: 600;
+  background: var(--color-fach-zart); color: var(--color-fach-text); }
+
+/* Text der Lerneinheiten */
+.prosa { line-height: 1.7; font-size: 1.02rem; }
+.prosa p, .prosa ul, .prosa ol, .prosa table { margin: .7rem 0; }
+.prosa ul { list-style: disc; padding-left: 1.3rem; } .prosa ol { list-style: decimal; padding-left: 1.3rem; }
+.prosa li { margin: .3rem 0; } .prosa li::marker { color: var(--fach); }
+.prosa strong { font-weight: 700; }
+.prosa a { color: var(--color-fach-text); font-weight: 600; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--fach) 45%, transparent); text-underline-offset: 3px; }
+.prosa table { width: 100%; border-collapse: collapse; font-size: .94rem; display: block; overflow-x: auto; }
+.prosa th { text-align: left; background: var(--color-fach-zart); color: var(--color-fach-text); }
+.prosa th, .prosa td { padding: .5rem .7rem; border: 1px solid var(--rand); vertical-align: top; }
+.begriff { border-bottom: 2px dotted var(--fach); cursor: help; font-style: italic; border-radius: 3px; }
+.begriff:hover, .begriff:focus { background: var(--color-fach-zart); }
+
+/* React Flow an das Farbschema anpassen */
+.react-flow { --xy-background-color: transparent; --xy-edge-label-background-color: var(--bg); --xy-edge-label-color: var(--leise);
+  --xy-controls-button-background-color: var(--flaeche); --xy-controls-button-color: var(--text); --xy-controls-button-border-color: var(--rand);
+  --xy-controls-button-background-color-hover: var(--flaeche2); --xy-attribution-background-color: transparent; }
+.react-flow__handle { opacity: 0; pointer-events: none; }
+
+@keyframes einblenden { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.einblenden { animation: einblenden .28s ease-out both; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }

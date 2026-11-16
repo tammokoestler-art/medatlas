@@ -1,0 +1,52 @@
+{
+  "titel": "Mindmap: Untere Extremität",
+  "beschreibung": "Wie hängen Knochen, Muskeln, Nerven und Gefäße des Beins zusammen?",
+  "reihenfolge": 1,
+  "knoten": [
+    { "id": "bein", "text": "Untere Extremität", "einheit": "ueberblick" },
+
+    { "id": "huefte", "text": "Becken & Hüfte", "unter": "bein" },
+    { "id": "oscoxae", "text": "Os coxae\nHüftbein", "unter": "huefte", "einheit": "os-coxae" },
+    { "id": "hgelenk", "text": "Articulatio coxae\nHüftgelenk", "unter": "huefte", "einheit": "articulatio-coxae" },
+    { "id": "glutmax", "text": "M. gluteus maximus", "unter": "huefte", "einheit": "m-gluteus-maximus", "notiz": "Hüftstrecker" },
+    { "id": "glutmed", "text": "Mm. glutei medius\net minimus", "unter": "huefte", "einheit": "mm-glutei-medius-et-minimus", "notiz": "Abduktoren" },
+    { "id": "iliopsoas", "text": "M. iliopsoas", "unter": "huefte", "einheit": "m-iliopsoas", "notiz": "Hüftbeuger" },
+
+    { "id": "os", "text": "Oberschenkel", "unter": "bein" },
+    { "id": "femur", "text": "Femur", "unter": "os", "einheit": "femur" },
+    { "id": "quad", "text": "M. quadriceps femoris", "unter": "os", "einheit": "m-quadriceps-femoris", "notiz": "Kniestrecker" },
+    { "id": "sart", "text": "M. sartorius", "unter": "os", "einheit": "m-sartorius" },
+    { "id": "add", "text": "Adduktoren", "unter": "os", "einheit": "adduktoren" },
+    { "id": "ischio", "text": "Ischiokrurale\nMuskulatur", "unter": "os", "einheit": "ischiokrurale-muskulatur", "notiz": "Kniebeuger" },
+
+    { "id": "leit", "text": "Leitungsbahnen", "unter": "bein" },
+    { "id": "afem", "text": "A. femoralis", "unter": "leit", "einheit": "a-femoralis" },
+    { "id": "vsm", "text": "V. saphena magna", "unter": "leit", "einheit": "v-saphena-magna" },
+    { "id": "nfem", "text": "N. femoralis", "unter": "leit", "einheit": "n-femoralis" },
+    { "id": "nisch", "text": "N. ischiadicus", "unter": "leit", "einheit": "n-ischiadicus" },
+    { "id": "nfib", "text": "N. fibularis communis", "unter": "leit", "einheit": "n-fibularis-communis" },
+
+    { "id": "knie", "text": "Knie", "unter": "bein" },
+    { "id": "kgelenk", "text": "Articulatio genus\nKniegelenk", "unter": "knie", "einheit": "articulatio-genus" },
+    { "id": "patella", "text": "Patella", "unter": "knie", "einheit": "patella" },
+
+    { "id": "us", "text": "Unterschenkel", "unter": "bein" },
+    { "id": "tibfib", "text": "Tibia & Fibula", "unter": "us", "einheit": "tibia-und-fibula" },
+    { "id": "logen", "text": "Muskellogen", "unter": "us", "einheit": "muskellogen-unterschenkel" },
+    { "id": "triceps", "text": "M. triceps surae", "unter": "us", "einheit": "m-triceps-surae", "notiz": "Zehenstand" },
+
+    { "id": "fuss", "text": "Fuß", "unter": "bein" },
+    { "id": "fskelett", "text": "Fußskelett &\nSprunggelenke", "unter": "fuss", "einheit": "fussskelett" }
+  ],
+  "verbindungen": [
+    { "von": "nfem", "nach": "quad", "text": "innerviert" },
+    { "von": "nfem", "nach": "sart", "text": "innerviert" },
+    { "von": "nisch", "nach": "ischio", "text": "innerviert" },
+    { "von": "nisch", "nach": "nfib", "text": "teilt sich in" },
+    { "von": "nfib", "nach": "logen", "text": "innerviert Fußheber" },
+    { "von": "quad", "nach": "patella", "text": "Sehne enthält" },
+    { "von": "afem", "nach": "add", "text": "zieht durch Adduktorenschlitz" },
+    { "von": "triceps", "nach": "fskelett", "text": "Achillessehne → Fersenbein" },
+    { "von": "iliopsoas", "nach": "femur", "text": "setzt am Trochanter minor an" }
+  ]
+}

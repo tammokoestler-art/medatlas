@@ -1,0 +1,8 @@
+{
+  "titel": "Karteikarten: Thema",
+  "beschreibung": "optional",
+  "reihenfolge": 2,
+  "karten": [
+    { "id": "k01", "einheit": "kurzname-der-einheit", "vorne": "Genau EINE Frage. **Fett** ist möglich.", "hinten": "Kurze Antwort." }
+  ]
+}

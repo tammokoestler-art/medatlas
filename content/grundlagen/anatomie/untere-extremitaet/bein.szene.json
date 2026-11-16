@@ -1,0 +1,1684 @@
+{
+ "typ": "szene",
+ "titel": "3D-Modell: Rechtes Bein",
+ "reihenfolge": 0,
+ "beschreibung": "Drehen, zoomen, verschieben. Strukturen antippen, um Namen und Infokarte zu sehen.",
+ "modell": "models/bein-rechts.glb",
+ "quelle": {
+  "name": "BodyParts3D, Version 4.0",
+  "urheber": "© The Database Center for Life Science (DBCLS)",
+  "lizenz": "CC BY 4.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+  "hinweis": "Lizenz laut Datenbankseite (Stand 27.02.2025) CC BY 4.0. In den Kopfzeilen der Originaldateien von 2013 steht noch CC BY-SA 2.1 Japan. Die Modelle wurden für MedAtlas zugeschnitten, umbenannt und komprimiert. Nerven sind im Datensatz nicht enthalten und wurden als schematische Verläufe ergänzt."
+ },
+ "schichten": [
+  {
+   "id": "haut",
+   "titel": "Haut",
+   "farbe": "#e8b89a"
+  },
+  {
+   "id": "muskeln",
+   "titel": "Muskeln",
+   "farbe": "#c0504d"
+  },
+  {
+   "id": "gefaesse",
+   "titel": "Gefäße",
+   "farbe": "#d62839"
+  },
+  {
+   "id": "nerven",
+   "titel": "Nerven",
+   "farbe": "#f2c230"
+  },
+  {
+   "id": "knochen",
+   "titel": "Knochen",
+   "farbe": "#e9e2cf"
+  }
+ ],
+ "strukturen": [
+  {
+   "id": "FJ3152",
+   "lat": "Os coxae",
+   "de": "Hüftbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "huefte",
+   "dateien": [
+    "FJ3152"
+   ],
+   "fma": "FMA16586",
+   "einheit": "os-coxae",
+   "info": "Besteht aus Darmbein (Os ilium), Sitzbein (Os ischii) und Schambein (Os pubis)."
+  },
+  {
+   "id": "FJ3365",
+   "lat": "Femur",
+   "de": "Oberschenkelknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ3365"
+   ],
+   "fma": "FMA24474",
+   "einheit": "femur",
+   "info": "Längster und kräftigster Knochen des Körpers."
+  },
+  {
+   "id": "FJ3381",
+   "lat": "Patella",
+   "de": "Kniescheibe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "knie",
+   "dateien": [
+    "FJ3381"
+   ],
+   "fma": "FMA24486",
+   "einheit": "patella",
+   "info": "Größtes Sesambein des Körpers, eingelagert in die Quadrizepssehne."
+  },
+  {
+   "id": "FJ3387",
+   "lat": "Tibia",
+   "de": "Schienbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ3387"
+   ],
+   "fma": "FMA24477",
+   "einheit": "tibia-und-fibula",
+   "info": "Der gewichttragende Knochen des Unterschenkels."
+  },
+  {
+   "id": "FJ3366",
+   "lat": "Fibula",
+   "de": "Wadenbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ3366"
+   ],
+   "fma": "FMA24480",
+   "einheit": "tibia-und-fibula",
+   "info": "Schlanker Knochen an der Außenseite; bildet den Außenknöchel."
+  },
+  {
+   "id": "FJ3385",
+   "lat": "Talus",
+   "de": "Sprungbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3385"
+   ],
+   "fma": "FMA24482",
+   "einheit": "fussskelett",
+   "info": "Überträgt die Körperlast vom Unterschenkel auf den Fuß; keine Muskelansätze."
+  },
+  {
+   "id": "FJ3360",
+   "lat": "Calcaneus",
+   "de": "Fersenbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3360"
+   ],
+   "fma": "FMA24497",
+   "einheit": "fussskelett",
+   "info": "Größter Fußwurzelknochen; Ansatz der Achillessehne."
+  },
+  {
+   "id": "FJ3308",
+   "lat": "Os naviculare",
+   "de": "Kahnbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3308"
+   ],
+   "fma": "FMA24500",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3364",
+   "lat": "Os cuboideum",
+   "de": "Würfelbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3364"
+   ],
+   "fma": "FMA24528",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3377",
+   "lat": "Os cuneiforme mediale",
+   "de": "Inneres Keilbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3377"
+   ],
+   "fma": "FMA24521",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3370",
+   "lat": "Os cuneiforme intermedium",
+   "de": "Mittleres Keilbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3370"
+   ],
+   "fma": "FMA24523",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3373",
+   "lat": "Os cuneiforme laterale",
+   "de": "Äußeres Keilbein",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3373"
+   ],
+   "fma": "FMA24525",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3351",
+   "lat": "Os metatarsi I",
+   "de": "1. Mittelfußknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3351"
+   ],
+   "fma": "FMA24507",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3353",
+   "lat": "Os metatarsi II",
+   "de": "2. Mittelfußknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3353"
+   ],
+   "fma": "FMA24509",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3355",
+   "lat": "Os metatarsi III",
+   "de": "3. Mittelfußknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3355"
+   ],
+   "fma": "FMA24511",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3357",
+   "lat": "Os metatarsi IV",
+   "de": "4. Mittelfußknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3357"
+   ],
+   "fma": "FMA24513",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3359",
+   "lat": "Os metatarsi V",
+   "de": "5. Mittelfußknochen",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3359"
+   ],
+   "fma": "FMA24515",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3310",
+   "lat": "Phalanx proximalis hallucis",
+   "de": "Grundglied der Großzehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3310"
+   ],
+   "fma": "FMA43253",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3192",
+   "lat": "Phalanx distalis hallucis",
+   "de": "Endglied der Großzehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3192"
+   ],
+   "fma": "FMA32650",
+   "einheit": "fussskelett",
+   "info": "Die Großzehe (Hallux) hat nur zwei Glieder."
+  },
+  {
+   "id": "FJ3319",
+   "lat": "Phalanx proximalis digiti II",
+   "de": "Grundglied der 2. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3319"
+   ],
+   "fma": "FMA32634",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3300",
+   "lat": "Phalanx media digiti II",
+   "de": "Mittelglied der 2. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3300"
+   ],
+   "fma": "FMA32642",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3189",
+   "lat": "Phalanx distalis digiti II",
+   "de": "Endglied der 2. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3189"
+   ],
+   "fma": "FMA32652",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3320",
+   "lat": "Phalanx proximalis digiti III",
+   "de": "Grundglied der 3. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3320"
+   ],
+   "fma": "FMA32636",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3301",
+   "lat": "Phalanx media digiti III",
+   "de": "Mittelglied der 3. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3301"
+   ],
+   "fma": "FMA32644",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3190",
+   "lat": "Phalanx distalis digiti III",
+   "de": "Endglied der 3. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3190"
+   ],
+   "fma": "FMA32654",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3321",
+   "lat": "Phalanx proximalis digiti IV",
+   "de": "Grundglied der 4. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3321"
+   ],
+   "fma": "FMA32638",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3302",
+   "lat": "Phalanx media digiti IV",
+   "de": "Mittelglied der 4. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3302"
+   ],
+   "fma": "FMA32646",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3191",
+   "lat": "Phalanx distalis digiti IV",
+   "de": "Endglied der 4. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3191"
+   ],
+   "fma": "FMA32656",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3324",
+   "lat": "Phalanx proximalis digiti V",
+   "de": "Grundglied der 5. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3324"
+   ],
+   "fma": "FMA32640",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3305",
+   "lat": "Phalanx media digiti V",
+   "de": "Mittelglied der 5. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3305"
+   ],
+   "fma": "FMA230986",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3195",
+   "lat": "Phalanx distalis digiti V",
+   "de": "Endglied der 5. Zehe",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3195"
+   ],
+   "fma": "FMA32658",
+   "einheit": "fussskelett"
+  },
+  {
+   "id": "FJ3372",
+   "lat": "Ossa sesamoidea",
+   "de": "Sesambeine",
+   "schicht": "knochen",
+   "art": "knochen",
+   "region": "fuss",
+   "dateien": [
+    "FJ3372",
+    "FJ3376"
+   ],
+   "fma": "FMA45097",
+   "einheit": "fussskelett",
+   "info": "Zwei kleine Knochen unter dem Köpfchen des 1. Mittelfußknochens."
+  },
+  {
+   "id": "FJ1392",
+   "lat": "Membrana interossea cruris",
+   "de": "Zwischenknochenmembran des Unterschenkels",
+   "schicht": "knochen",
+   "art": "band",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1392"
+   ],
+   "fma": "FMA35192",
+   "info": "Straffe Bindegewebsplatte zwischen Tibia und Fibula; Ursprungsfläche für Muskeln."
+  },
+  {
+   "id": "FJ1418",
+   "lat": "Musculus gluteus maximus",
+   "de": "Großer Gesäßmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1418"
+   ],
+   "fma": "FMA22328",
+   "einheit": "m-gluteus-maximus",
+   "info": "Kräftigster Strecker des Hüftgelenks."
+  },
+  {
+   "id": "FJ1419",
+   "lat": "Musculus gluteus medius",
+   "de": "Mittlerer Gesäßmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1419"
+   ],
+   "fma": "FMA22330",
+   "einheit": "mm-glutei-medius-et-minimus",
+   "info": "Wichtigster Abduktor; stabilisiert das Becken im Einbeinstand."
+  },
+  {
+   "id": "FJ1420",
+   "lat": "Musculus gluteus minimus",
+   "de": "Kleiner Gesäßmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1420"
+   ],
+   "fma": "FMA22332",
+   "einheit": "mm-glutei-medius-et-minimus"
+  },
+  {
+   "id": "FJ1438",
+   "lat": "Musculus tensor fasciae latae",
+   "de": "Spanner der Oberschenkelbinde",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1438"
+   ],
+   "fma": "FMA22425",
+   "info": "Spannt den Tractus iliotibialis."
+  },
+  {
+   "id": "FJ1423",
+   "lat": "Tractus iliotibialis",
+   "de": "Darmbein-Schienbein-Zug",
+   "schicht": "muskeln",
+   "art": "sehne",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1423"
+   ],
+   "fma": "FMA58776",
+   "info": "Verstärkungszug der Fascia lata an der Außenseite des Oberschenkels."
+  },
+  {
+   "id": "FJ1428",
+   "lat": "Musculus piriformis",
+   "de": "Birnenförmiger Muskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1428"
+   ],
+   "fma": "FMA22340",
+   "einheit": "n-ischiadicus",
+   "info": "Leitstruktur der Gesäßregion: Der N. ischiadicus tritt meist unterhalb von ihm aus."
+  },
+  {
+   "id": "FJ1426",
+   "lat": "Musculus obturatorius internus",
+   "de": "Innerer Hüftlochmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1426"
+   ],
+   "fma": "FMA22324",
+   "info": "Außenrotator des Hüftgelenks."
+  },
+  {
+   "id": "FJ1425",
+   "lat": "Musculus obturatorius externus",
+   "de": "Äußerer Hüftlochmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1425"
+   ],
+   "fma": "FMA22326",
+   "info": "Außenrotator des Hüftgelenks."
+  },
+  {
+   "id": "FJ1417",
+   "lat": "Musculus gemellus superior",
+   "de": "Oberer Zwillingsmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1417"
+   ],
+   "fma": "FMA22334",
+   "info": "Außenrotator des Hüftgelenks."
+  },
+  {
+   "id": "FJ1416",
+   "lat": "Musculus gemellus inferior",
+   "de": "Unterer Zwillingsmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1416"
+   ],
+   "fma": "FMA22336",
+   "info": "Außenrotator des Hüftgelenks."
+  },
+  {
+   "id": "FJ1432",
+   "lat": "Musculus quadratus femoris",
+   "de": "Viereckiger Oberschenkelmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1432"
+   ],
+   "fma": "FMA22338",
+   "info": "Außenrotator des Hüftgelenks."
+  },
+  {
+   "id": "FJ1422",
+   "lat": "Musculus iliacus",
+   "de": "Darmbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1422"
+   ],
+   "fma": "FMA22322",
+   "einheit": "m-iliopsoas",
+   "info": "Bildet mit dem M. psoas major den M. iliopsoas."
+  },
+  {
+   "id": "FJ1431",
+   "lat": "Musculus psoas major",
+   "de": "Großer Lendenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "huefte",
+   "dateien": [
+    "FJ1431"
+   ],
+   "fma": "FMA22342",
+   "einheit": "m-iliopsoas",
+   "info": "Bildet mit dem M. iliacus den M. iliopsoas – stärkster Hüftbeuger."
+  },
+  {
+   "id": "FJ1434",
+   "lat": "Musculus sartorius",
+   "de": "Schneidermuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1434"
+   ],
+   "fma": "FMA22354",
+   "einheit": "m-sartorius",
+   "info": "Längster Muskel des Körpers."
+  },
+  {
+   "id": "FJ1433",
+   "lat": "Musculus rectus femoris",
+   "de": "Gerader Oberschenkelmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1433"
+   ],
+   "fma": "FMA38928",
+   "einheit": "m-quadriceps-femoris",
+   "info": "Einziger zweigelenkiger Kopf des M. quadriceps femoris."
+  },
+  {
+   "id": "FJ1442",
+   "lat": "Musculus vastus lateralis",
+   "de": "Äußerer breiter Oberschenkelmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1442"
+   ],
+   "fma": "FMA38930",
+   "einheit": "m-quadriceps-femoris",
+   "info": "Kopf des M. quadriceps femoris; häufiger Ort für intramuskuläre Injektionen."
+  },
+  {
+   "id": "FJ1443",
+   "lat": "Musculus vastus medialis",
+   "de": "Innerer breiter Oberschenkelmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1443"
+   ],
+   "fma": "FMA38932",
+   "einheit": "m-quadriceps-femoris",
+   "info": "Kopf des M. quadriceps femoris."
+  },
+  {
+   "id": "FJ1441",
+   "lat": "Musculus vastus intermedius",
+   "de": "Mittlerer breiter Oberschenkelmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1441"
+   ],
+   "fma": "FMA38934",
+   "einheit": "m-quadriceps-femoris",
+   "info": "Kopf des M. quadriceps femoris; liegt unter dem M. rectus femoris."
+  },
+  {
+   "id": "FJ1427",
+   "lat": "Musculus pectineus",
+   "de": "Kammmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1427"
+   ],
+   "fma": "FMA22450",
+   "einheit": "adduktoren"
+  },
+  {
+   "id": "FJ1402",
+   "lat": "Musculus adductor longus",
+   "de": "Langer Oberschenkelanzieher",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1402"
+   ],
+   "fma": "FMA22456",
+   "einheit": "adduktoren"
+  },
+  {
+   "id": "FJ1401",
+   "lat": "Musculus adductor brevis",
+   "de": "Kurzer Oberschenkelanzieher",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1401"
+   ],
+   "fma": "FMA22452",
+   "einheit": "adduktoren"
+  },
+  {
+   "id": "FJ1403",
+   "lat": "Musculus adductor magnus",
+   "de": "Großer Oberschenkelanzieher",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1403"
+   ],
+   "fma": "FMA22459",
+   "einheit": "adduktoren"
+  },
+  {
+   "id": "FJ1404",
+   "lat": "Musculus adductor minimus",
+   "de": "Kleinster Oberschenkelanzieher",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1404"
+   ],
+   "fma": "FMA43886",
+   "einheit": "adduktoren",
+   "info": "Oberster Anteil des M. adductor magnus."
+  },
+  {
+   "id": "FJ1421",
+   "lat": "Musculus gracilis",
+   "de": "Schlanker Muskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1421"
+   ],
+   "fma": "FMA43883",
+   "einheit": "adduktoren",
+   "info": "Einziger zweigelenkiger Adduktor."
+  },
+  {
+   "id": "FJ1395",
+   "lat": "Musculus biceps femoris, Caput longum",
+   "de": "Zweiköpfiger Oberschenkelmuskel, langer Kopf",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1395"
+   ],
+   "fma": "FMA45888",
+   "einheit": "ischiokrurale-muskulatur"
+  },
+  {
+   "id": "FJ1444",
+   "lat": "Musculus biceps femoris, Caput breve",
+   "de": "Zweiköpfiger Oberschenkelmuskel, kurzer Kopf",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1444"
+   ],
+   "fma": "FMA45891",
+   "einheit": "ischiokrurale-muskulatur",
+   "info": "Entspringt am Femur und gehört deshalb streng genommen nicht zur ischiokruralen Muskulatur."
+  },
+  {
+   "id": "FJ1436",
+   "lat": "Musculus semitendinosus",
+   "de": "Halbsehnenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1436"
+   ],
+   "fma": "FMA22358",
+   "einheit": "ischiokrurale-muskulatur"
+  },
+  {
+   "id": "FJ1435",
+   "lat": "Musculus semimembranosus",
+   "de": "Plattsehnenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ1435"
+   ],
+   "fma": "FMA22448",
+   "einheit": "ischiokrurale-muskulatur"
+  },
+  {
+   "id": "FJ1430",
+   "lat": "Musculus popliteus",
+   "de": "Kniekehlenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "knie",
+   "dateien": [
+    "FJ1430"
+   ],
+   "fma": "FMA22591",
+   "info": "Entriegelt das gestreckte Kniegelenk zu Beginn der Beugung."
+  },
+  {
+   "id": "FJ1397",
+   "lat": "Musculus gastrocnemius, Caput mediale",
+   "de": "Zwillingswadenmuskel, innerer Kopf",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1397"
+   ],
+   "fma": "FMA45957",
+   "einheit": "m-triceps-surae"
+  },
+  {
+   "id": "FJ1394",
+   "lat": "Musculus gastrocnemius, Caput laterale",
+   "de": "Zwillingswadenmuskel, äußerer Kopf",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1394"
+   ],
+   "fma": "FMA45960",
+   "einheit": "m-triceps-surae"
+  },
+  {
+   "id": "FJ1437",
+   "lat": "Musculus soleus",
+   "de": "Schollenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1437"
+   ],
+   "fma": "FMA22558",
+   "einheit": "m-triceps-surae"
+  },
+  {
+   "id": "FJ1429",
+   "lat": "Musculus plantaris",
+   "de": "Fußsohlenspanner",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1429"
+   ],
+   "fma": "FMA22560",
+   "einheit": "m-triceps-surae",
+   "info": "Kleiner Muskel mit sehr langer, dünner Sehne."
+  },
+  {
+   "id": "FJ1405",
+   "lat": "Tendo calcaneus",
+   "de": "Achillessehne",
+   "schicht": "muskeln",
+   "art": "sehne",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1405"
+   ],
+   "fma": "FMA258847",
+   "einheit": "m-triceps-surae",
+   "info": "Gemeinsame Endsehne des M. triceps surae; kräftigste Sehne des Körpers."
+  },
+  {
+   "id": "FJ1439",
+   "lat": "Musculus tibialis anterior",
+   "de": "Vorderer Schienbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1439"
+   ],
+   "fma": "FMA22544",
+   "einheit": "muskellogen-unterschenkel",
+   "info": "Wichtigster Fußheber (Dorsalextension)."
+  },
+  {
+   "id": "FJ1406",
+   "lat": "Musculus extensor digitorum longus",
+   "de": "Langer Zehenstrecker",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1406"
+   ],
+   "fma": "FMA22548",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1408",
+   "lat": "Musculus extensor hallucis longus",
+   "de": "Langer Großzehenstrecker",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1408"
+   ],
+   "fma": "FMA22546",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1411",
+   "lat": "Musculus fibularis tertius",
+   "de": "Dritter Wadenbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1411"
+   ],
+   "fma": "FMA22550",
+   "einheit": "muskellogen-unterschenkel",
+   "info": "Abspaltung des M. extensor digitorum longus; nicht bei allen Menschen vorhanden."
+  },
+  {
+   "id": "FJ1410",
+   "lat": "Musculus fibularis longus",
+   "de": "Langer Wadenbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1410"
+   ],
+   "fma": "FMA22552",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1409",
+   "lat": "Musculus fibularis brevis",
+   "de": "Kurzer Wadenbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1409"
+   ],
+   "fma": "FMA22554",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1440",
+   "lat": "Musculus tibialis posterior",
+   "de": "Hinterer Schienbeinmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1440"
+   ],
+   "fma": "FMA65018",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1414",
+   "lat": "Musculus flexor digitorum longus",
+   "de": "Langer Zehenbeuger",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1414"
+   ],
+   "fma": "FMA65016",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1415",
+   "lat": "Musculus flexor hallucis longus",
+   "de": "Langer Großzehenbeuger",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ1415"
+   ],
+   "fma": "FMA65014",
+   "einheit": "muskellogen-unterschenkel"
+  },
+  {
+   "id": "FJ1400",
+   "lat": "Musculus abductor hallucis",
+   "de": "Großzehenabspreizer",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1400"
+   ],
+   "fma": "FMA37459"
+  },
+  {
+   "id": "FJ1413",
+   "lat": "Musculus flexor digitorum brevis",
+   "de": "Kurzer Zehenbeuger",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1413"
+   ],
+   "fma": "FMA37461"
+  },
+  {
+   "id": "FJ1390",
+   "lat": "Musculus abductor digiti minimi",
+   "de": "Kleinzehenabspreizer",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1390"
+   ],
+   "fma": "FMA37463"
+  },
+  {
+   "id": "FJ1407",
+   "lat": "Musculus extensor hallucis brevis",
+   "de": "Kurzer Großzehenstrecker",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1407"
+   ],
+   "fma": "FMA51144"
+  },
+  {
+   "id": "FJ1412",
+   "lat": "Musculus quadratus plantae",
+   "de": "Viereckiger Sohlenmuskel",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1412"
+   ],
+   "fma": "FMA37465"
+  },
+  {
+   "id": "FJ1396",
+   "lat": "Musculus flexor hallucis brevis",
+   "de": "Kurzer Großzehenbeuger",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1396",
+    "FJ1393"
+   ],
+   "fma": "FMA45971"
+  },
+  {
+   "id": "FJ1398",
+   "lat": "Musculus adductor hallucis",
+   "de": "Großzehenanzieher",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1398",
+    "FJ1445"
+   ],
+   "fma": "FMA46018"
+  },
+  {
+   "id": "FJ1391",
+   "lat": "Musculus flexor digiti minimi brevis",
+   "de": "Kurzer Kleinzehenbeuger",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1391"
+   ],
+   "fma": "FMA37471"
+  },
+  {
+   "id": "FJ1383",
+   "lat": "Musculi lumbricales pedis",
+   "de": "Regenwurmmuskeln des Fußes",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1383",
+    "FJ1385",
+    "FJ1387",
+    "FJ1389"
+   ],
+   "fma": "FMA37717"
+  },
+  {
+   "id": "FJ1384",
+   "lat": "Musculi interossei plantares",
+   "de": "Fußsohlenseitige Zwischenknochenmuskeln",
+   "schicht": "muskeln",
+   "art": "muskel",
+   "region": "fuss",
+   "dateien": [
+    "FJ1384",
+    "FJ1386",
+    "FJ1388"
+   ],
+   "fma": "FMA37745"
+  },
+  {
+   "id": "FJ1424",
+   "lat": "Ligamentum plantare longum",
+   "de": "Langes Sohlenband",
+   "schicht": "muskeln",
+   "art": "band",
+   "region": "fuss",
+   "dateien": [
+    "FJ1424"
+   ],
+   "fma": "FMA44249",
+   "info": "Verspannt das Längsgewölbe des Fußes."
+  },
+  {
+   "id": "FJ3567",
+   "lat": "Arteria iliaca externa",
+   "de": "Äußere Beckenarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "huefte",
+   "dateien": [
+    "FJ3567"
+   ],
+   "fma": "FMA18806",
+   "einheit": "a-femoralis",
+   "info": "Wird unter dem Leistenband zur A. femoralis."
+  },
+  {
+   "id": "FJ2143",
+   "lat": "Arteria femoralis",
+   "de": "Oberschenkelarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2143"
+   ],
+   "fma": "FMA70249",
+   "einheit": "a-femoralis",
+   "info": "Hauptarterie des Beins; Puls in der Leiste tastbar."
+  },
+  {
+   "id": "FJ2203",
+   "lat": "Arteriae perforantes",
+   "de": "Durchbohrende Arterien",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2203",
+    "FJ2127"
+   ],
+   "fma": "FMA70815",
+   "einheit": "a-femoralis",
+   "info": "Äste der A. profunda femoris; versorgen die Oberschenkelrückseite."
+  },
+  {
+   "id": "FJ2158",
+   "lat": "Arteria circumflexa femoris lateralis",
+   "de": "Äußere Oberschenkelkranzarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2158"
+   ],
+   "fma": "FMA20801",
+   "einheit": "a-femoralis"
+  },
+  {
+   "id": "FJ2057",
+   "lat": "Arteria circumflexa femoris lateralis, Ramus descendens",
+   "de": "Absteigender Ast der äußeren Oberschenkelkranzarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2057"
+   ],
+   "fma": "FMA21422",
+   "einheit": "a-femoralis"
+  },
+  {
+   "id": "FJ2137",
+   "lat": "Arteria descendens genus",
+   "de": "Absteigende Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2137"
+   ],
+   "fma": "FMA22507"
+  },
+  {
+   "id": "FJ2170",
+   "lat": "Arteria poplitea",
+   "de": "Kniekehlenarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2170"
+   ],
+   "fma": "FMA77380",
+   "einheit": "a-femoralis",
+   "info": "Fortsetzung der A. femoralis nach dem Adduktorenkanal."
+  },
+  {
+   "id": "FJ2166",
+   "lat": "Arteria superior medialis genus",
+   "de": "Obere innere Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2166"
+   ],
+   "fma": "FMA22586"
+  },
+  {
+   "id": "FJ2162",
+   "lat": "Arteria superior lateralis genus",
+   "de": "Obere äußere Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2162"
+   ],
+   "fma": "FMA22588"
+  },
+  {
+   "id": "FJ2167",
+   "lat": "Arteria media genus",
+   "de": "Mittlere Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2167"
+   ],
+   "fma": "FMA22562"
+  },
+  {
+   "id": "FJ2152",
+   "lat": "Arteria inferior medialis genus",
+   "de": "Untere innere Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2152"
+   ],
+   "fma": "FMA43890"
+  },
+  {
+   "id": "FJ2150",
+   "lat": "Arteria inferior lateralis genus",
+   "de": "Untere äußere Kniearterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "knie",
+   "dateien": [
+    "FJ2150"
+   ],
+   "fma": "FMA43892"
+  },
+  {
+   "id": "FJ2130",
+   "lat": "Arteria tibialis anterior",
+   "de": "Vordere Schienbeinarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2130"
+   ],
+   "fma": "FMA43896",
+   "info": "Versorgt die Streckerloge; setzt sich als A. dorsalis pedis fort."
+  },
+  {
+   "id": "FJ2131",
+   "lat": "Arteria recurrens tibialis anterior",
+   "de": "Vordere rückläufige Schienbeinarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2131"
+   ],
+   "fma": "FMA43907"
+  },
+  {
+   "id": "FJ2172",
+   "lat": "Arteria tibialis posterior",
+   "de": "Hintere Schienbeinarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2172"
+   ],
+   "fma": "FMA43898",
+   "info": "Puls hinter dem Innenknöchel tastbar."
+  },
+  {
+   "id": "FJ2055",
+   "lat": "Arteria dorsalis pedis",
+   "de": "Fußrückenarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2055"
+   ],
+   "fma": "FMA43916",
+   "info": "Puls auf dem Fußrücken tastbar."
+  },
+  {
+   "id": "FJ2133",
+   "lat": "Arteria arcuata",
+   "de": "Bogenarterie des Fußes",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2133"
+   ],
+   "fma": "FMA69494"
+  },
+  {
+   "id": "FJ2163",
+   "lat": "Arteria tarsalis lateralis",
+   "de": "Äußere Fußwurzelarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2163"
+   ],
+   "fma": "FMA69490"
+  },
+  {
+   "id": "FJ2164",
+   "lat": "Arteria plantaris medialis",
+   "de": "Innere Fußsohlenarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2164"
+   ],
+   "fma": "FMA43929"
+  },
+  {
+   "id": "FJ2159",
+   "lat": "Arteria plantaris lateralis",
+   "de": "Äußere Fußsohlenarterie",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2159"
+   ],
+   "fma": "FMA43931"
+  },
+  {
+   "id": "FJ2169",
+   "lat": "Arcus plantaris profundus",
+   "de": "Tiefer Fußsohlenbogen",
+   "schicht": "gefaesse",
+   "art": "arterie",
+   "region": "fuss",
+   "dateien": [
+    "FJ2169"
+   ],
+   "fma": "FMA43943"
+  },
+  {
+   "id": "FJ3568",
+   "lat": "Vena iliaca externa",
+   "de": "Äußere Beckenvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "huefte",
+   "dateien": [
+    "FJ3568"
+   ],
+   "fma": "FMA18885"
+  },
+  {
+   "id": "FJ2144",
+   "lat": "Vena femoralis",
+   "de": "Oberschenkelvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2144"
+   ],
+   "fma": "FMA21188",
+   "einheit": "a-femoralis",
+   "info": "Liegt in der Leiste medial (innen) der Arterie."
+  },
+  {
+   "id": "FJ2135",
+   "lat": "Vena profunda femoris",
+   "de": "Tiefe Oberschenkelvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2135"
+   ],
+   "fma": "FMA51042"
+  },
+  {
+   "id": "FJ2201",
+   "lat": "Vena circumflexa femoris lateralis",
+   "de": "Äußere Oberschenkelkranzvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2201"
+   ],
+   "fma": "FMA44920"
+  },
+  {
+   "id": "FJ2202",
+   "lat": "Vena circumflexa femoris medialis",
+   "de": "Innere Oberschenkelkranzvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2202"
+   ],
+   "fma": "FMA44918"
+  },
+  {
+   "id": "FJ2145",
+   "lat": "Vena saphena magna",
+   "de": "Große Rosenvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "oberschenkel",
+   "dateien": [
+    "FJ2145"
+   ],
+   "fma": "FMA21379",
+   "einheit": "v-saphena-magna",
+   "info": "Längste Vene des Körpers; oberflächlich an der Innenseite des Beins."
+  },
+  {
+   "id": "FJ2176",
+   "lat": "Vena saphena parva",
+   "de": "Kleine Rosenvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2176"
+   ],
+   "fma": "FMA44334",
+   "einheit": "v-saphena-magna",
+   "info": "Oberflächliche Vene an der Wade; mündet meist in die V. poplitea."
+  },
+  {
+   "id": "FJ2171",
+   "lat": "Vena poplitea",
+   "de": "Kniekehlenvene",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "knie",
+   "dateien": [
+    "FJ2171"
+   ],
+   "fma": "FMA44328"
+  },
+  {
+   "id": "FJ2193",
+   "lat": "Venae tibiales anteriores",
+   "de": "Vordere Schienbeinvenen",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2193",
+    "FJ2132"
+   ],
+   "fma": "FMA44336"
+  },
+  {
+   "id": "FJ2173",
+   "lat": "Venae tibiales posteriores",
+   "de": "Hintere Schienbeinvenen",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2173"
+   ],
+   "fma": "FMA44338"
+  },
+  {
+   "id": "FJ2200",
+   "lat": "Venae fibulares",
+   "de": "Wadenbeinvenen",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "unterschenkel",
+   "dateien": [
+    "FJ2200",
+    "FJ2194"
+   ],
+   "fma": "FMA44885"
+  },
+  {
+   "id": "FJ2061",
+   "lat": "Arcus venosus dorsalis pedis",
+   "de": "Venenbogen des Fußrückens",
+   "schicht": "gefaesse",
+   "art": "vene",
+   "region": "fuss",
+   "dateien": [
+    "FJ2061",
+    "FJ2062"
+   ],
+   "fma": "FMA44881",
+   "einheit": "v-saphena-magna",
+   "info": "Aus ihm entspringen V. saphena magna und V. saphena parva."
+  },
+  {
+   "id": "NERV_femoralis",
+   "lat": "Nervus femoralis",
+   "de": "Oberschenkelnerv",
+   "schicht": "nerven",
+   "art": "nerv",
+   "region": "oberschenkel",
+   "schematisch": true,
+   "einheit": "n-femoralis",
+   "info": "Schematischer Verlauf. Motorisch für die Kniestrecker."
+  },
+  {
+   "id": "NERV_saphenus",
+   "lat": "Nervus saphenus",
+   "de": "Rosennerv",
+   "schicht": "nerven",
+   "art": "nerv",
+   "region": "unterschenkel",
+   "schematisch": true,
+   "einheit": "n-femoralis",
+   "info": "Schematischer Verlauf. Sensibler Endast des N. femoralis."
+  },
+  {
+   "id": "NERV_ischiadicus",
+   "lat": "Nervus ischiadicus",
+   "de": "Ischiasnerv",
+   "schicht": "nerven",
+   "art": "nerv",
+   "region": "oberschenkel",
+   "schematisch": true,
+   "einheit": "n-ischiadicus",
+   "info": "Schematischer Verlauf. Dickster Nerv des Körpers."
+  },
+  {
+   "id": "NERV_tibialis",
+   "lat": "Nervus tibialis",
+   "de": "Schienbeinnerv",
+   "schicht": "nerven",
+   "art": "nerv",
+   "region": "unterschenkel",
+   "schematisch": true,
+   "einheit": "n-ischiadicus",
+   "info": "Schematischer Verlauf. Innerer Endast des N. ischiadicus."
+  },
+  {
+   "id": "NERV_fibularis",
+   "lat": "Nervus fibularis communis",
+   "de": "Gemeinsamer Wadenbeinnerv",
+   "schicht": "nerven",
+   "art": "nerv",
+   "region": "unterschenkel",
+   "schematisch": true,
+   "einheit": "n-fibularis-communis",
+   "info": "Schematischer Verlauf. Zieht um das Wadenbeinköpfchen – dort leicht verletzbar."
+  },
+  {
+   "id": "HAUT",
+   "lat": "Cutis",
+   "de": "Haut",
+   "schicht": "haut",
+   "art": "haut",
+   "region": "bein",
+   "info": "Körperoberfläche des rechten Beins."
+  }
+ ]
+}
