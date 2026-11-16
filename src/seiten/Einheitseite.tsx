@@ -36,7 +36,7 @@ export default function Einheitseite({ k }: { k: Einheit }) {
         <p className="mt-1 text-lg font-semibold text-fach-text sm:text-xl">{k.de}</p>
         {k.wortherkunft && <p className="mt-2 text-sm text-leise"><strong>Wortherkunft:</strong> {k.wortherkunft}</p>}
         <div className="mt-4 flex flex-wrap gap-2">
-          {szenen.map((s) => <Link key={s.id} to={link(s.id, `?e=${k.id}`)} className="knopf knopf-fach"><Box size={16} />Im 3D-Modell zeigen</Link>)}
+          {szenen.map((s) => <Link key={s.id} to={link(s.id, `?e=${k.id}`)} className="knopf knopf-fach"><Box size={16} />3D: {s.titel.replace(/^3D-(Modell|Atlas): /, '')}</Link>)}
           {stapel && <Link to={link(stapel)} className="knopf"><GalleryVerticalEnd size={16} className="text-fach" />{anzahlKarten} Karten dazu</Link>}
         </div>
       </header>

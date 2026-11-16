@@ -2,7 +2,7 @@ import MiniSearch from 'minisearch';
 import { Search, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { alle, fachFarbe, knoten, link, pfad, TYP_NAME, type Knoten } from '../daten';
+import { alle, fachFarbe, knoten, link, pfad, strukturName, TYP_NAME, type Knoten } from '../daten';
 import { Ikon } from './Ikon';
 
 interface Eintrag { id: string; ziel: string; knoten: string; titel: string; unter: string; art: string; text: string }
@@ -12,7 +12,7 @@ for (const k of alle) {
   const text = k.typ === 'einheit' ? `${k.text} ${Object.values(k.steckbrief ?? {}).join(' ')}` : (k.beschreibung ?? '');
   eintraege.push({ id: k.id, ziel: link(k.id), knoten: k.id, titel: k.titel, unter, art: TYP_NAME[k.typ], text });
   if (k.typ === 'szene') for (const s of k.strukturen)
-    eintraege.push({ id: `${k.id}#${s.id}`, ziel: link(k.id, `?s=${s.id}`), knoten: k.id, titel: s.lat, unter: s.de, art: '3D-Struktur', text: s.info ?? '' });
+    eintraege.push({ id: `${k.id}#${s.id}`, ziel: link(k.id, `?s=${s.id}`), knoten: k.id, titel: strukturName(s), unter: [s.de, s.seite].filter(Boolean).join(', '), art: '3D-Struktur', text: `${s.en ?? ''} ${s.info ?? ''}` });
   if (k.typ === 'trainer') for (const g of k.gruppen) for (const e of g.eintraege)
     eintraege.push({ id: `${k.id}#${g.id}#${e.begriff}`, ziel: link(k.id), knoten: k.id, titel: e.begriff, unter: e.bedeutung, art: 'Wortbaustein', text: e.beispiel ?? '' });
 }

@@ -37,10 +37,23 @@ const ok = (name, bed, info = '') => console.log((bed ? 'OK   ' : 'FAIL ') + nam
   const vor = await p.evaluate(() => JSON.stringify(window.__medatlasPunkt('FJ3381')));
   await p.mouse.move(800, 450); await p.mouse.down(); await p.mouse.move(950, 470, { steps: 8 }); await p.mouse.up(); await p.mouse.wheel(0, -400); await p.waitForTimeout(800);
   ok('Drehen/Zoomen bewegt die Kamera', vor !== await p.evaluate(() => JSON.stringify(window.__medatlasPunkt('FJ3381'))));
+  // Ganzkörper-Atlas: Skelett in Silhouette, Schichten einzeln laden, großes Infofenster
+  await p.goto(U + '/n/grundlagen/anatomie/ganzkoerper-szene'); await p.waitForSelector('canvas[data-bereit]', { timeout: 120000 }); await p.waitForTimeout(3000);
+  ok('Ganzkörper: Skelett + Haut geladen', Number(await p.locator('canvas').getAttribute('data-bereit')) > 300, await p.locator('canvas').getAttribute('data-bereit') + ' Netze');
+  await p.screenshot({ path: S + '10-koerper-skelett.png' });
+  await p.getByRole('button', { name: 'Nur Arterien zeigen' }).click(); await p.waitForTimeout(300); await p.waitForSelector('canvas[data-bereit]', { timeout: 120000 }); await p.waitForTimeout(3000);
+  await p.screenshot({ path: S + '11-koerper-arterien.png' });
+  await p.getByRole('button', { name: 'Nur Skelett zeigen' }).click(); await p.waitForTimeout(2500);
+  pt = await p.evaluate(() => window.__medatlasPunkt('FJ3259')); await p.mouse.click(pt.x, pt.y); await p.waitForTimeout(3000);
+  ok('Ganzkörper: Klick öffnet Infofenster mit Steckbrief', (await p.getByTestId('struktur-lat').textContent()) === 'Femur' && (await p.getByTestId('infokarte').textContent()).includes('Steckbrief'), await p.getByTestId('struktur-lat').textContent());
+  await p.screenshot({ path: S + '12-koerper-femur.png' });
+  await p.getByRole('button', { name: 'Alles zeigen' }).click(); await p.getByRole('button', { name: 'Auswahl aufheben' }).click(); await p.waitForTimeout(300); await p.waitForSelector('canvas[data-bereit]', { timeout: 180000 }); await p.waitForTimeout(8000);
+  ok('Ganzkörper: alle Schichten geladen', Number(await p.locator('canvas').getAttribute('data-bereit')) === 2234, await p.locator('canvas').getAttribute('data-bereit') + ' Netze');
+  await p.screenshot({ path: S + '13-koerper-alles.png', timeout: 120000 });
   // Lerneinheit → 3D
-  await p.goto(U + A + '/oberschenkel/muskeln/m-quadriceps-femoris'); await p.getByRole('link', { name: 'Im 3D-Modell zeigen' }).click();
+  await p.goto(U + A + '/oberschenkel/muskeln/m-quadriceps-femoris'); await p.getByRole('link', { name: '3D: Rechtes Bein' }).click();
   await p.waitForSelector('canvas[data-bereit]'); await p.waitForTimeout(2500);
-  ok('Einheit → 3D markiert 4 Köpfe', (await p.getByTestId('infokarte').locator('li').count()) === 4); await p.screenshot({ path: S + '23-3d-quadriceps.png' });
+  ok('Einheit → 3D markiert 4 Köpfe', (await p.getByTestId('infokarte').locator('.grid button').count()) === 4); await p.screenshot({ path: S + '23-3d-quadriceps.png' });
   // Begriff-Tooltip, gelernt markieren, Fortschritt im Ordner
   await p.goto(U + A + '/oberschenkel/muskeln/m-quadriceps-femoris');
   await p.locator('.begriff').first().hover(); ok('Begriff-Erklärung', await p.getByRole('tooltip').isVisible(), (await p.getByRole('tooltip').textContent()));

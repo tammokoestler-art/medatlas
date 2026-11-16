@@ -24,10 +24,12 @@ const Quelle = z.object({ name: z.string(), urheber: z.string(), lizenz: z.strin
 const Kopf = { titel: z.string(), beschreibung: z.string().optional(), reihenfolge: z.number().default(50) };
 const Typen = {
   szene: z.object({
-    ...Kopf, typ: z.literal('szene'), modell: z.string(), quelle: Quelle,
-    schichten: z.array(z.object({ id: z.string(), titel: z.string(), farbe: z.string() })),
+    ...Kopf, typ: z.literal('szene'), modell: z.string().optional(), quelle: Quelle,
+    rahmen: z.array(z.array(z.number())).optional(), start: z.record(z.enum(['an', 'durch', 'aus'])).optional(),
+    schichten: z.array(z.object({ id: z.string(), titel: z.string(), farbe: z.string(), datei: z.string().optional() })),
     strukturen: z.array(z.object({
-      id: z.string(), lat: z.string(), de: z.string(), schicht: z.string(), art: z.string(), region: z.string(),
+      id: z.string(), lat: z.string(), de: z.string(), en: z.string().optional(), seite: z.string().optional(),
+      schicht: z.string(), art: z.string(), region: z.string(),
       dateien: z.array(z.string()).optional(), fma: z.string().optional(), schematisch: z.boolean().optional(),
       einheit: z.string().optional(), info: z.string().optional(),
     })),
@@ -133,7 +135,9 @@ for (const k of knoten) {
     for (const a of k.abschnitte) a.html = a.html.replace(/href="@([^"]+)"/g, (_, kurz) => `href="#/n/${einheiten.get(kurz) ?? ''}"`);
   }
   if (k.typ === 'szene') for (const s of k.strukturen) {
+    delete s.dateien;
     if (s.einheit) s.einheit = einheitId(s.einheit, k.id);
+    if (!k.modell && !k.schichten.find((x) => x.id === s.schicht)?.datei) melde(k.id, `Für Schicht „${s.schicht}" ist keine Modelldatei angegeben`);
     if (!k.schichten.some((x) => x.id === s.schicht)) melde(k.id, `Schicht „${s.schicht}" unbekannt (${s.id})`);
   }
   if (k.typ === 'mindmap') {

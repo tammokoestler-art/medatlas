@@ -1,0 +1,499 @@
+# english|latein|deutsch   (leeres Latein bei Muskeln = "Musculus " + englischer Name)
+Atlas|Atlas (Vertebra cervicalis I)|Atlas – 1. Halswirbel
+Axis|Axis (Vertebra cervicalis II)|Axis – 2. Halswirbel
+Body of sternum|Corpus sterni|Brustbeinkörper
+Manubrium|Manubrium sterni|Brustbeinhandgriff
+Xiphoid process|Processus xiphoideus|Schwertfortsatz
+Calcaneus|Calcaneus|Fersenbein
+Capitate|Os capitatum|Kopfbein
+Clavicle|Clavicula|Schlüsselbein
+Cuboid bone|Os cuboideum|Würfelbein
+Ethmoid|Os ethmoidale|Siebbein
+Femur|Femur|Oberschenkelknochen
+Fibula|Fibula|Wadenbein
+Frontal bone|Os frontale|Stirnbein
+Hamate|Os hamatum|Hakenbein
+Hip bone|Os coxae|Hüftbein
+Humerus|Humerus|Oberarmknochen
+Hyoid bone|Os hyoideum|Zungenbein
+Inferior nasal concha|Concha nasalis inferior|Untere Nasenmuschel
+Intermediate cuneiform bone|Os cuneiforme intermedium|Mittleres Keilbein
+Lacrimal bone|Os lacrimale|Tränenbein
+Lateral cuneiform bone|Os cuneiforme laterale|Äußeres Keilbein
+Lunate|Os lunatum|Mondbein
+Mandible|Mandibula|Unterkiefer
+Maxilla|Maxilla|Oberkiefer
+Medial cuneiform bone|Os cuneiforme mediale|Inneres Keilbein
+Nasal bone|Os nasale|Nasenbein
+Navicular bone of foot|Os naviculare|Kahnbein (Fuß)
+Occipital bone|Os occipitale|Hinterhauptbein
+Palatine bone|Os palatinum|Gaumenbein
+Parietal bone|Os parietale|Scheitelbein
+Patella|Patella|Kniescheibe
+Pisiform|Os pisiforme|Erbsenbein
+Radius|Radius|Speiche
+Sacrum|Os sacrum|Kreuzbein
+Scaphoid|Os scaphoideum|Kahnbein (Hand)
+Scapula|Scapula|Schulterblatt
+Sesamoid bone of foot|Os sesamoideum pedis|Sesambein des Fußes
+Sphenoid bone|Os sphenoidale|Keilbein (Schädel)
+Talus|Talus|Sprungbein
+Temporal bone|Os temporale|Schläfenbein
+Tibia|Tibia|Schienbein
+Trapezium|Os trapezium|Großes Vieleckbein
+Trapezoid|Os trapezoideum|Kleines Vieleckbein
+Triquetral|Os triquetrum|Dreieckbein
+Ulna|Ulna|Elle
+Vomer|Vomer|Pflugscharbein
+Zygomatic bone|Os zygomaticum|Jochbein
+Arytenoid cartilage|Cartilago arytenoidea|Stellknorpel
+Corniculate cartilage|Cartilago corniculata|Hörnchenknorpel
+Cricoid cartilage|Cartilago cricoidea|Ringknorpel
+Cuneiform cartilage|Cartilago cuneiformis|Keilknorpel
+Thyroid cartilage|Cartilago thyroidea|Schildknorpel
+Lateral nasal cartilage|Cartilago nasi lateralis|Seitlicher Nasenknorpel
+Major alar cartilage|Cartilago alaris major|Großer Nasenflügelknorpel
+Septal nasal cartilage|Cartilago septi nasi|Nasenscheidewandknorpel
+Intervertebral disk|Discus intervertebralis|Bandscheibe
+Calcaneal tendon|Tendo calcaneus|Achillessehne
+Flexor retinaculum of wrist|Retinaculum musculorum flexorum manus|Beugerhalteband der Hand
+Interosseous membrane of forearm|Membrana interossea antebrachii|Zwischenknochenmembran des Unterarms
+Interosseous membrane of leg|Membrana interossea cruris|Zwischenknochenmembran des Unterschenkels
+Linea alba|Linea alba|Weiße Linie der Bauchwand
+Long plantar ligament|Ligamentum plantare longum|Langes Sohlenband
+Stylohyoid ligament|Ligamentum stylohyoideum|Griffelfortsatz-Zungenbein-Band
+Vocal ligament|Ligamentum vocale|Stimmband
+Thyrohyoid membrane|Membrana thyrohyoidea|Schildknorpel-Zungenbein-Membran
+Median cricothyroid ligament|Ligamentum cricothyroideum medianum|Mittleres Ringknorpel-Schildknorpel-Band
+Iliotibial tract|Tractus iliotibialis|Darmbein-Schienbein-Zug
+Skin|Cutis|Haut
+Optic nerve|Nervus opticus|Sehnerv
+Optic chiasm|Chiasma opticum|Sehnervenkreuzung
+Optic tract|Tractus opticus|Sehbahn
+Trochlear nerve|Nervus trochlearis|Augenrollnerv (IV. Hirnnerv)
+Ophthalmic nerve|Nervus ophthalmicus|Augenhöhlennerv (1. Trigeminusast)
+Frontal nerve|Nervus frontalis|Stirnnerv
+Lacrimal nerve|Nervus lacrimalis|Tränendrüsennerv
+Nasociliary nerve|Nervus nasociliaris|Nasen-Ziliar-Nerv
+Supra-orbital nerve|Nervus supraorbitalis|Oberaugenhöhlennerv
+Supratrochlear nerve|Nervus supratrochlearis|
+Infratrochlear nerve|Nervus infratrochlearis|
+Ciliary ganglion|Ganglion ciliare|Ziliarganglion
+Superior branch of oculomotor nerve|Nervus oculomotorius, Ramus superior|Augenbewegungsnerv (III. Hirnnerv), oberer Ast
+Inferior branch of oculomotor nerve|Nervus oculomotorius, Ramus inferior|Augenbewegungsnerv (III. Hirnnerv), unterer Ast
+# ---------- Muskeln ----------
+Abductor digiti minimi of foot|Musculus abductor digiti minimi pedis|Kleinzehenabspreizer
+Abductor digiti minimi of hand|Musculus abductor digiti minimi manus|Kleinfingerabspreizer
+Abductor hallucis||Großzehenabspreizer
+Abductor pollicis brevis||Kurzer Daumenabspreizer
+Abductor pollicis longus||Langer Daumenabspreizer
+Acromial part of deltoid|Musculus deltoideus, Pars acromialis|Deltamuskel, Schulterhöhenteil
+Clavicular part of deltoid|Musculus deltoideus, Pars clavicularis|Deltamuskel, Schlüsselbeinteil
+Spinal part of deltoid|Musculus deltoideus, Pars spinalis|Deltamuskel, Schulterblattgrätenteil
+Adductor brevis||Kurzer Oberschenkelanzieher
+Adductor longus||Langer Oberschenkelanzieher
+Adductor magnus||Großer Oberschenkelanzieher
+Adductor minimus||Kleinster Oberschenkelanzieher
+Anconeus||Knorrenmuskel
+Ascending part of trapezius|Musculus trapezius, Pars ascendens|Trapezmuskel, aufsteigender Teil
+Descending part of trapezius|Musculus trapezius, Pars descendens|Trapezmuskel, absteigender Teil
+Transverse part of trapezius|Musculus trapezius, Pars transversa|Trapezmuskel, querer Teil
+Brachialis||Oberarmmuskel
+Brachioradialis||Oberarmspeichenmuskel
+Coccygeus||Steißbeinmuskel
+Coracobrachialis||Rabenschnabel-Oberarm-Muskel
+Diaphragm|Diaphragma|Zwerchfell
+Digastric|Musculus digastricus|Zweibäuchiger Muskel
+Extensor carpi radialis brevis||Kurzer speichenseitiger Handstrecker
+Extensor carpi radialis longus||Langer speichenseitiger Handstrecker
+Extensor carpi ulnaris||Ellenseitiger Handstrecker
+Extensor digiti minimi||Kleinfingerstrecker
+Extensor digitorum||Fingerstrecker
+Extensor digitorum longus||Langer Zehenstrecker
+Extensor hallucis brevis||Kurzer Großzehenstrecker
+Extensor hallucis longus||Langer Großzehenstrecker
+Extensor indicis||Zeigefingerstrecker
+Extensor pollicis brevis||Kurzer Daumenstrecker
+Extensor pollicis longus||Langer Daumenstrecker
+External anal sphincter|Musculus sphincter ani externus|Äußerer Afterschließmuskel
+External intercostal muscle|Musculi intercostales externi|Äußere Zwischenrippenmuskeln
+Internal intercostal muscle|Musculi intercostales interni|Innere Zwischenrippenmuskeln
+Innermost intercostal muscle|Musculi intercostales intimi|Innerste Zwischenrippenmuskeln
+External oblique|Musculus obliquus externus abdominis|Äußerer schräger Bauchmuskel
+Fibularis brevis||Kurzer Wadenbeinmuskel
+Fibularis longus||Langer Wadenbeinmuskel
+Fibularis tertius||Dritter Wadenbeinmuskel
+Flexor accessorius|Musculus quadratus plantae|Viereckiger Sohlenmuskel
+Flexor carpi radialis||Speichenseitiger Handbeuger
+Humeral head of flexor carpi ulnaris|Musculus flexor carpi ulnaris, Caput humerale|Ellenseitiger Handbeuger, Oberarmkopf
+Ulnar head of flexor carpi ulnaris|Musculus flexor carpi ulnaris, Caput ulnare|Ellenseitiger Handbeuger, Ellenkopf
+Flexor digiti minimi brevis of foot|Musculus flexor digiti minimi brevis pedis|Kurzer Kleinzehenbeuger
+Flexor digiti minimi brevis of hand|Musculus flexor digiti minimi brevis manus|Kurzer Kleinfingerbeuger
+Flexor digitorum brevis||Kurzer Zehenbeuger
+Flexor digitorum longus||Langer Zehenbeuger
+Flexor digitorum profundus||Tiefer Fingerbeuger
+Flexor digitorum superficialis||Oberflächlicher Fingerbeuger
+Flexor hallucis longus||Langer Großzehenbeuger
+Lateral head of flexor hallucis brevis|Musculus flexor hallucis brevis, Caput laterale|Kurzer Großzehenbeuger, äußerer Kopf
+Medial head of flexor hallucis brevis|Musculus flexor hallucis brevis, Caput mediale|Kurzer Großzehenbeuger, innerer Kopf
+Flexor pollicis brevis||Kurzer Daumenbeuger
+Superficial head of flexor pollicis brevis|Musculus flexor pollicis brevis, Caput superficiale|Kurzer Daumenbeuger, oberflächlicher Kopf
+Flexor pollicis longus||Langer Daumenbeuger
+Gemellus inferior||Unterer Zwillingsmuskel
+Gemellus superior||Oberer Zwillingsmuskel
+Genioglossus||Kinn-Zungen-Muskel
+Geniohyoid|Musculus geniohyoideus|Kinn-Zungenbein-Muskel
+Gluteus maximus||Großer Gesäßmuskel
+Gluteus medius||Mittlerer Gesäßmuskel
+Gluteus minimus||Kleiner Gesäßmuskel
+Gracilis||Schlanker Muskel
+Hyoglossus||Zungenbein-Zungen-Muskel
+Iliacus||Darmbeinmuskel
+Iliocostalis cervicis||
+Iliocostalis lumborum||
+Iliocostalis thoracis||
+Inferior oblique|Musculus obliquus inferior|Unterer schräger Augenmuskel
+Superior oblique|Musculus obliquus superior|Oberer schräger Augenmuskel
+Inferior rectus|Musculus rectus inferior|Unterer gerader Augenmuskel
+Superior rectus|Musculus rectus superior|Oberer gerader Augenmuskel
+Lateral rectus|Musculus rectus lateralis|Äußerer gerader Augenmuskel
+Medial rectus|Musculus rectus medialis|Innerer gerader Augenmuskel
+Levator palpebrae superioris||Oberlidheber
+Infraspinatus muscle|Musculus infraspinatus|Untergrätenmuskel
+Supraspinatus||Obergrätenmuskel
+Subscapularis||Unterschulterblattmuskel
+Teres major||Großer Rundmuskel
+Teres minor||Kleiner Rundmuskel
+Lateral head of gastrocnemius|Musculus gastrocnemius, Caput laterale|Zwillingswadenmuskel, äußerer Kopf
+Medial head of gastrocnemius|Musculus gastrocnemius, Caput mediale|Zwillingswadenmuskel, innerer Kopf
+Lateral head of triceps brachii|Musculus triceps brachii, Caput laterale|Dreiköpfiger Oberarmmuskel, äußerer Kopf
+Long head of triceps brachii|Musculus triceps brachii, Caput longum|Dreiköpfiger Oberarmmuskel, langer Kopf
+Medial head of triceps brachii|Musculus triceps brachii, Caput mediale|Dreiköpfiger Oberarmmuskel, innerer Kopf
+Long head of biceps brachii|Musculus biceps brachii, Caput longum|Zweiköpfiger Oberarmmuskel, langer Kopf
+Short head of biceps brachii|Musculus biceps brachii, Caput breve|Zweiköpfiger Oberarmmuskel, kurzer Kopf
+Long head of biceps femoris|Musculus biceps femoris, Caput longum|Zweiköpfiger Oberschenkelmuskel, langer Kopf
+Short head of biceps femoris|Musculus biceps femoris, Caput breve|Zweiköpfiger Oberschenkelmuskel, kurzer Kopf
+Levator scapulae||Schulterblattheber
+Levator veli palatini||Gaumensegelheber
+Tensor veli palatini||Gaumensegelspanner
+Longissimus capitis||
+Longissimus cervicis||
+Longissimus thoracis||
+Longus capitis||Langer Kopfmuskel
+Mylohyoid|Musculus mylohyoideus|Kiefer-Zungenbein-Muskel
+Oblique head of adductor hallucis|Musculus adductor hallucis, Caput obliquum|Großzehenanzieher, schräger Kopf
+Transverse head of adductor hallucis|Musculus adductor hallucis, Caput transversum|Großzehenanzieher, querer Kopf
+Oblique head of adductor pollicis|Musculus adductor pollicis, Caput obliquum|Daumenanzieher, schräger Kopf
+Transverse head of adductor pollicis|Musculus adductor pollicis, Caput transversum|Daumenanzieher, querer Kopf
+Obliquus capitis inferior||Unterer schräger Kopfmuskel
+Obliquus capitis superior||Oberer schräger Kopfmuskel
+Obturator externus|Musculus obturatorius externus|Äußerer Hüftlochmuskel
+Obturator internus|Musculus obturatorius internus|Innerer Hüftlochmuskel
+Omohyoid|Musculus omohyoideus|Schulterblatt-Zungenbein-Muskel
+Opponens digiti minimi of foot|Musculus opponens digiti minimi pedis|Gegensteller der Kleinzehe
+Opponens digiti minimi of hand|Musculus opponens digiti minimi manus|Gegensteller des Kleinfingers
+Opponens pollicis||Daumengegensteller
+Palmaris longus||Langer Hohlhandmuskel
+Pectineus||Kammmuskel
+Pectoralis minor||Kleiner Brustmuskel
+Abdominal part of pectoralis major|Musculus pectoralis major, Pars abdominalis|Großer Brustmuskel, Bauchteil
+Clavicular part of pectoralis major|Musculus pectoralis major, Pars clavicularis|Großer Brustmuskel, Schlüsselbeinteil
+Sternocostal part of pectoralis major|Musculus pectoralis major, Pars sternocostalis|Großer Brustmuskel, Brustbein-Rippen-Teil
+Piriformis||Birnenförmiger Muskel
+Plantaris||Fußsohlenspanner
+Platysma|Platysma|Hautmuskel des Halses
+Popliteus||Kniekehlenmuskel
+Pronator quadratus||Viereckiger Einwärtsdreher
+Humeral head of pronator teres|Musculus pronator teres, Caput humerale|Runder Einwärtsdreher, Oberarmkopf
+Ulnar head of pronator teres|Musculus pronator teres, Caput ulnare|Runder Einwärtsdreher, Ellenkopf
+Psoas major||Großer Lendenmuskel
+Quadratus femoris||Viereckiger Oberschenkelmuskel
+Rectus capitis anterior||
+Rectus capitis lateralis||
+Rectus capitis posterior major||
+Rectus capitis posterior minor||
+Rectus femoris||Gerader Oberschenkelmuskel
+Rhomboid major|Musculus rhomboideus major|Großer Rautenmuskel
+Rhomboid minor|Musculus rhomboideus minor|Kleiner Rautenmuskel
+Sartorius||Schneidermuskel
+Scalenus anterior||Vorderer Treppenmuskel
+Scalenus medius||Mittlerer Treppenmuskel
+Scalenus posterior||Hinterer Treppenmuskel
+Semimembranosus||Plattsehnenmuskel
+Semitendinosus||Halbsehnenmuskel
+Semispinalis capitis||
+Semispinalis cervicis||
+Semispinalis thoracis||
+Serratus anterior||Vorderer Sägemuskel
+Serratus posterior inferior||Hinterer unterer Sägemuskel
+Serratus posterior superior||Hinterer oberer Sägemuskel
+Set of dorsal interossei of hand|Musculi interossei dorsales manus|Rückenseitige Zwischenknochenmuskeln der Hand
+Set of palmar interossei of hand|Musculi interossei palmares|Hohlhandseitige Zwischenknochenmuskeln
+Set of lumbricals of hand|Musculi lumbricales manus|Regenwurmmuskeln der Hand
+First lumbrical of foot|Musculus lumbricalis pedis I|1. Regenwurmmuskel des Fußes
+Second lumbrical of foot|Musculus lumbricalis pedis II|2. Regenwurmmuskel des Fußes
+Third lumbrical of foot|Musculus lumbricalis pedis III|3. Regenwurmmuskel des Fußes
+Fourth lumbrical of foot|Musculus lumbricalis pedis IV|4. Regenwurmmuskel des Fußes
+First plantar interosseous of foot|Musculus interosseus plantaris I|1. sohlenseitiger Zwischenknochenmuskel
+Second plantar interosseous of foot|Musculus interosseus plantaris II|2. sohlenseitiger Zwischenknochenmuskel
+Third plantar interosseous of foot|Musculus interosseus plantaris III|3. sohlenseitiger Zwischenknochenmuskel
+Set of levatores costarum breves|Musculi levatores costarum breves|Kurze Rippenheber
+Set of levatores costarum longi|Musculi levatores costarum longi|Lange Rippenheber
+Soleus||Schollenmuskel
+Spinalis||Dornmuskel
+Spinalis thoracis||Dornmuskel, Brustteil
+Splenius capitis||Riemenmuskel des Kopfes
+Splenius cervicis||Riemenmuskel des Halses
+Sternocleidomastoid|Musculus sternocleidomastoideus|Kopfwender
+Sternohyoid|Musculus sternohyoideus|Brustbein-Zungenbein-Muskel
+Sternothyroid|Musculus sternothyroideus|Brustbein-Schildknorpel-Muskel
+Thyrohyoid|Musculus thyrohyoideus|Schildknorpel-Zungenbein-Muskel
+Stylohyoid|Musculus stylohyoideus|Griffelfortsatz-Zungenbein-Muskel
+Stylopharyngeus||Griffelfortsatz-Schlund-Muskel
+Subclavius||Unterschlüsselbeinmuskel
+Supinator||Auswärtsdreher
+Tensor fasciae latae||Spanner der Oberschenkelbinde
+Tibialis anterior||Vorderer Schienbeinmuskel
+Tibialis posterior||Hinterer Schienbeinmuskel
+Transversus thoracis||Querer Brustkorbmuskel
+Vastus intermedius||Mittlerer breiter Oberschenkelmuskel
+Vastus lateralis||Äußerer breiter Oberschenkelmuskel
+Vastus medialis||Innerer breiter Oberschenkelmuskel
+Vocalis||Stimmmuskel
+Superior pharyngeal constrictor|Musculus constrictor pharyngis superior|Oberer Schlundschnürer
+Middle pharyngeal constrictor|Musculus constrictor pharyngis medius|Mittlerer Schlundschnürer
+Inferior pharyngeal constrictor|Musculus constrictor pharyngis inferior|Unterer Schlundschnürer
+Posterior crico-arytenoid|Musculus cricoarytenoideus posterior|Hinterer Ringknorpel-Stellknorpel-Muskel („Postikus“)
+Lateral crico-arytenoid|Musculus cricoarytenoideus lateralis|Seitlicher Ringknorpel-Stellknorpel-Muskel
+Iliococcygeus||
+Pubococcygeus||
+Puborectalis||
+Palatopharyngeus||Gaumen-Schlund-Muskel
+Uvular muscle|Musculus uvulae|Zäpfchenmuskel
+# ---------- Organe ----------
+Adrenal gland|Glandula suprarenalis|Nebenniere
+Appendix|Appendix vermiformis|Wurmfortsatz
+Ascending colon|Colon ascendens|Aufsteigender Dickdarm
+Transverse colon|Colon transversum|Querer Dickdarm
+Descending colon|Colon descendens|Absteigender Dickdarm
+Rectum|Rectum|Mastdarm
+Duodenum|Duodenum|Zwölffingerdarm
+Proximal part of jejunum|Jejunum, proximaler Abschnitt|Leerdarm, Anfangsteil
+Middle part of jejunum|Jejunum, mittlerer Abschnitt|Leerdarm, mittlerer Teil
+Distal part of jejunum|Jejunum, distaler Abschnitt|Leerdarm, Endteil
+Proximal part of ileum|Ileum, proximaler Abschnitt|Krummdarm, Anfangsteil
+Middle part of ileum|Ileum, mittlerer Abschnitt|Krummdarm, mittlerer Teil
+Distal part of ileum|Ileum, distaler Abschnitt|Krummdarm, Endteil
+Esophagus|Oesophagus|Speiseröhre
+Stomach|Gaster|Magen
+Gallbladder|Vesica biliaris|Gallenblase
+Cystic duct|Ductus cysticus|Gallenblasengang
+Common hepatic duct|Ductus hepaticus communis|Gemeinsamer Lebergang
+Caudate lobe of liver|Lobus caudatus hepatis|Geschwänzter Leberlappen
+Pancreas|Pancreas|Bauchspeicheldrüse
+Pancreatic duct|Ductus pancreaticus|Bauchspeicheldrüsengang
+Spleen|Splen|Milz
+Kidney|Ren|Niere
+Ureter|Ureter|Harnleiter
+Urinary bladder|Vesica urinaria|Harnblase
+Urethra|Urethra|Harnröhre
+Prostate|Prostata|Vorsteherdrüse
+Testis|Testis|Hoden
+Epididymis|Epididymis|Nebenhoden
+Deferent duct|Ductus deferens|Samenleiter
+Seminal vesicle|Glandula vesiculosa|Samenbläschen
+Trachea|Trachea|Luftröhre
+Main bronchus|Bronchus principalis|Hauptbronchus
+Main bronchus proper|Bronchus principalis|Hauptbronchus
+Epiglottis|Epiglottis|Kehldeckel
+Tongue|Lingua|Zunge
+Sublingual gland|Glandula sublingualis|Unterzungendrüse
+Submandibular gland|Glandula submandibularis|Unterkieferdrüse
+Lobe of thymus|Thymus, Lobus|Thymuslappen (Bries)
+Cornea|Cornea|Hornhaut
+Sclera|Sclera|Lederhaut des Auges
+Iris|Iris|Regenbogenhaut
+Lens|Lens|Augenlinse
+Choroid|Choroidea|Aderhaut
+Vitreous body|Corpus vitreum|Glaskörper
+Optic part of retina|Retina, Pars optica|Netzhaut, lichtempfindlicher Teil
+Lacrimal gland|Glandula lacrimalis|Tränendrüse
+Nasolacrimal duct|Ductus nasolacrimalis|Tränennasengang
+External ear|Auris externa|Äußeres Ohr
+Mesentery of small intestine|Mesenterium|Dünndarmgekröse
+Wall of atrium|Atrium cordis, Wand|Herzvorhof, Wand
+Cavity of atrium|Atrium cordis, Lichtung|Herzvorhof, Innenraum
+Wall of ventricle|Ventriculus cordis, Wand|Herzkammern, Wand
+Cavity of ventricle|Ventriculus cordis, Lichtung|Herzkammer, Innenraum
+Anterior leaflet of mitral valve|Valva mitralis, Cuspis anterior|Mitralklappe, vorderes Segel
+Posterior leaflet of mitral valve|Valva mitralis, Cuspis posterior|Mitralklappe, hinteres Segel
+Anterior leaflet of tricuspid valve|Valva tricuspidalis, Cuspis anterior|Trikuspidalklappe, vorderes Segel
+Posterior leaflet of tricuspid valve|Valva tricuspidalis, Cuspis posterior|Trikuspidalklappe, hinteres Segel
+Septal leaflet of tricuspid valve|Valva tricuspidalis, Cuspis septalis|Trikuspidalklappe, Scheidewandsegel
+# ---------- Gehirn / ZNS ----------
+Amygdala|Corpus amygdaloideum|Mandelkern
+Caudate nucleus|Nucleus caudatus|Schweifkern
+Cerebellum|Cerebellum|Kleinhirn
+Cerebral aqueduct|Aquaeductus mesencephali|Wasserleitung des Mittelhirns
+Corpus callosum|Corpus callosum|Balken
+Fornix of forebrain|Fornix|Gewölbe
+Fourth ventricle|Ventriculus quartus|Vierter Hirnventrikel
+Third ventricle|Ventriculus tertius|Dritter Hirnventrikel
+Lateral ventricle|Ventriculus lateralis|Seitenventrikel
+Globus pallidus|Globus pallidus|Bleicher Kern
+Putamen|Putamen|Schalenkern
+Hippocampus|Hippocampus|Hippocampus („Seepferdchen“)
+Hypothalamus|Hypothalamus|Hypothalamus
+Thalamus|Thalamus|Thalamus (Sehhügel)
+Insula|Insula|Inselrinde
+Internal capsule|Capsula interna|Innere Kapsel
+Medulla oblongata|Medulla oblongata|Verlängertes Mark
+Midbrain|Mesencephalon|Mittelhirn
+Pons|Pons|Brücke
+Pineal body|Glandula pinealis|Zirbeldrüse
+Pituitary gland|Hypophysis|Hirnanhangsdrüse
+Mammillary body|Corpus mammillare|Mamillarkörper
+Occipital lobe|Lobus occipitalis|Hinterhauptlappen
+Precentral gyrus|Gyrus precentralis|Vordere Zentralwindung (motorische Rinde)
+Postcentral gyrus|Gyrus postcentralis|Hintere Zentralwindung (sensible Rinde)
+Superior frontal gyrus|Gyrus frontalis superior|Obere Stirnwindung
+Middle frontal gyrus|Gyrus frontalis medius|Mittlere Stirnwindung
+Inferior frontal gyrus|Gyrus frontalis inferior|Untere Stirnwindung
+Middle temporal gyrus|Gyrus temporalis medius|Mittlere Schläfenwindung
+Inferior temporal gyrus|Gyrus temporalis inferior|Untere Schläfenwindung
+Cingulate gyrus|Gyrus cinguli|Gürtelwindung
+Parahippocampal gyrus|Gyrus parahippocampalis|
+Angular gyrus|Gyrus angularis|
+Supramarginal gyrus|Gyrus supramarginalis|
+Superior parietal lobule|Lobulus parietalis superior|Oberes Scheitelläppchen
+Superior colliculus|Colliculus superior|Oberer Hügel der Vierhügelplatte
+Inferior colliculus|Colliculus inferior|Unterer Hügel der Vierhügelplatte
+Lateral geniculate body|Corpus geniculatum laterale|Seitlicher Kniehöcker
+Medial geniculate body|Corpus geniculatum mediale|Innerer Kniehöcker
+Tentorium cerebelli|Tentorium cerebelli|Kleinhirnzelt
+White matter of cerebral hemisphere|Substantia alba hemispherii cerebri|Weiße Substanz der Großhirnhälfte
+Anterior commissure|Commissura anterior|Vordere Kommissur
+Posterior commissure|Commissura posterior|Hintere Kommissur
+Central canal of spinal cord|Canalis centralis medullae spinalis|Zentralkanal des Rückenmarks
+# ---------- Arterien ----------
+Ascending aorta|Aorta ascendens|Aufsteigende Aorta
+Arch of aorta|Arcus aortae|Aortenbogen
+Descending aorta|Aorta descendens|Absteigende Aorta
+Descending thoracic aorta|Aorta thoracica|Brustaorta
+Abdominal aorta|Aorta abdominalis|Bauchaorta
+Pulmonary trunk|Truncus pulmonalis|Lungenschlagaderstamm
+Pulmonary artery|Arteria pulmonalis|Lungenarterie
+Brachiocephalic artery|Truncus brachiocephalicus|Arm-Kopf-Schlagaderstamm
+Common carotid artery|Arteria carotis communis|Gemeinsame Halsschlagader
+Internal carotid artery|Arteria carotis interna|Innere Halsschlagader
+Subclavian artery|Arteria subclavia|Schlüsselbeinarterie
+Vertebral artery|Arteria vertebralis|Wirbelarterie
+Basilar artery|Arteria basilaris|Schädelbasisarterie
+Anterior cerebral artery|Arteria cerebri anterior|Vordere Großhirnarterie
+Anterior communicating artery|Arteria communicans anterior|Vordere Verbindungsarterie
+Posterior communicating artery|Arteria communicans posterior|Hintere Verbindungsarterie
+Superior cerebellar artery|Arteria superior cerebelli|Obere Kleinhirnarterie
+Anterior inferior cerebellar artery|Arteria inferior anterior cerebelli|Vordere untere Kleinhirnarterie
+Posterior inferior cerebellar artery|Arteria inferior posterior cerebelli|Hintere untere Kleinhirnarterie
+Ophthalmic artery|Arteria ophthalmica|Augenarterie
+Internal thoracic artery|Arteria thoracica interna|Innere Brustkorbarterie
+Thyrocervical trunk|Truncus thyrocervicalis|Schilddrüsen-Hals-Stamm
+Costocervical trunk|Truncus costocervicalis|Rippen-Hals-Stamm
+Inferior thyroid artery|Arteria thyroidea inferior|Untere Schilddrüsenarterie
+Suprascapular artery|Arteria suprascapularis|Obere Schulterblattarterie
+Axillary artery|Arteria axillaris|Achselarterie
+Brachial artery|Arteria brachialis|Oberarmarterie
+Deep brachial artery|Arteria profunda brachii|Tiefe Oberarmarterie
+Radial artery|Arteria radialis|Speichenarterie
+Ulnar artery|Arteria ulnaris|Ellenarterie
+Common interosseous artery|Arteria interossea communis|Gemeinsame Zwischenknochenarterie
+Anterior interosseous artery|Arteria interossea anterior|Vordere Zwischenknochenarterie
+Superficial palmar arterial arch|Arcus palmaris superficialis|Oberflächlicher Hohlhandbogen
+Deep palmar arch|Arcus palmaris profundus|Tiefer Hohlhandbogen
+Subscapular artery|Arteria subscapularis|Unterschulterblattarterie
+Thoracodorsal artery|Arteria thoracodorsalis|
+Lateral thoracic artery|Arteria thoracica lateralis|Seitliche Brustkorbarterie
+Anterior circumflex humeral artery|Arteria circumflexa humeri anterior|Vordere Oberarmkranzarterie
+Posterior circumflex humeral artery|Arteria circumflexa humeri posterior|Hintere Oberarmkranzarterie
+Celiac trunk|Truncus coeliacus|Bauchhöhlenstamm
+Celiac artery|Truncus coeliacus|Bauchhöhlenstamm
+Common hepatic artery|Arteria hepatica communis|Gemeinsame Leberarterie
+Hepatic artery proper|Arteria hepatica propria|Eigentliche Leberarterie
+Splenic artery|Arteria splenica|Milzarterie
+Superior mesenteric artery|Arteria mesenterica superior|Obere Eingeweidearterie
+Inferior mesenteric artery|Arteria mesenterica inferior|Untere Eingeweidearterie
+Renal artery|Arteria renalis|Nierenarterie
+Testicular artery|Arteria testicularis|Hodenarterie
+Middle colic artery|Arteria colica media|Mittlere Dickdarmarterie
+Ileocolic artery|Arteria ileocolica|Krummdarm-Dickdarm-Arterie
+Appendicular artery|Arteria appendicularis|Wurmfortsatzarterie
+Superior rectal artery|Arteria rectalis superior|Obere Mastdarmarterie
+Common iliac artery|Arteria iliaca communis|Gemeinsame Beckenarterie
+Internal iliac artery|Arteria iliaca interna|Innere Beckenarterie
+External iliac artery|Arteria iliaca externa|Äußere Beckenarterie
+Inferior epigastric artery|Arteria epigastrica inferior|Untere Bauchwandarterie
+Superior epigastric artery|Arteria epigastrica superior|Obere Bauchwandarterie
+Femoral artery|Arteria femoralis|Oberschenkelarterie
+Lateral circumflex femoral artery|Arteria circumflexa femoris lateralis|Äußere Oberschenkelkranzarterie
+Descending genicular artery|Arteria descendens genus|Absteigende Kniearterie
+Popliteal artery|Arteria poplitea|Kniekehlenarterie
+Anterior tibial artery|Arteria tibialis anterior|Vordere Schienbeinarterie
+Posterior tibial artery|Arteria tibialis posterior|Hintere Schienbeinarterie
+Dorsalis pedis artery|Arteria dorsalis pedis|Fußrückenarterie
+Arcuate artery|Arteria arcuata|Bogenarterie des Fußes
+Lateral plantar artery|Arteria plantaris lateralis|Äußere Fußsohlenarterie
+Medial plantar artery|Arteria plantaris medialis|Innere Fußsohlenarterie
+Plantar arch|Arcus plantaris profundus|Tiefer Fußsohlenbogen
+Set of perforating arteries|Arteriae perforantes|Durchbohrende Arterien
+Posterior intercostal arteries|Arteriae intercostales posteriores|Hintere Zwischenrippenarterien
+Lumbar artery|Arteria lumbalis|Lendenarterie
+# ---------- Venen ----------
+Superior vena cava|Vena cava superior|Obere Hohlvene
+Inferior vena cava|Vena cava inferior|Untere Hohlvene
+Brachiocephalic vein|Vena brachiocephalica|Arm-Kopf-Vene
+Internal jugular vein|Vena jugularis interna|Innere Drosselvene
+Subclavian vein|Vena subclavia|Schlüsselbeinvene
+Axillary vein|Vena axillaris|Achselvene
+Cephalic vein|Vena cephalica|Speichenseitige Hautvene des Arms
+Basilic vein|Vena basilica|Ellenseitige Hautvene des Arms
+Median cubital vein|Vena mediana cubiti|Mittlere Ellenbeugenvene
+Median antebrachial vein|Vena mediana antebrachii|Mittlere Unterarmvene
+Radial vein|Venae radiales|Speichenvenen
+Ulnar vein|Venae ulnares|Ellenvenen
+Azygos vein|Vena azygos|
+Hemiazygos vein|Vena hemiazygos|
+Accessory hemiazygos vein|Vena hemiazygos accessoria|
+Coronary sinus|Sinus coronarius|Herzkranzbucht
+Great cardiac vein|Vena cardiaca magna|Große Herzvene
+Middle cardiac vein|Vena cardiaca media|Mittlere Herzvene
+Small cardiac vein|Vena cardiaca parva|Kleine Herzvene
+Superior pulmonary vein|Vena pulmonalis superior|Obere Lungenvene
+Inferior pulmonary vein|Vena pulmonalis inferior|Untere Lungenvene
+Hepatic portal vein|Vena portae hepatis|Pfortader
+Portal vein|Vena portae hepatis|Pfortader
+Hepatic vein|Vena hepatica|Lebervene
+Middle hepatic vein|Vena hepatica intermedia|Mittlere Lebervene
+Splenic vein|Vena splenica|Milzvene
+Superior mesenteric vein|Vena mesenterica superior|Obere Eingeweidevene
+Inferior mesenteric vein|Vena mesenterica inferior|Untere Eingeweidevene
+Renal vein|Vena renalis|Nierenvene
+Testicular vein|Vena testicularis|Hodenvene
+Suprarenal vein|Vena suprarenalis|Nebennierenvene
+Common iliac vein|Vena iliaca communis|Gemeinsame Beckenvene
+Internal iliac vein|Vena iliaca interna|Innere Beckenvene
+External iliac vein|Vena iliaca externa|Äußere Beckenvene
+Femoral vein|Vena femoralis|Oberschenkelvene
+Deep femoral vein|Vena profunda femoris|Tiefe Oberschenkelvene
+Great saphenous vein|Vena saphena magna|Große Rosenvene
+Small saphenous vein|Vena saphena parva|Kleine Rosenvene
+Popliteal vein|Vena poplitea|Kniekehlenvene
+Anterior tibial vein|Venae tibiales anteriores|Vordere Schienbeinvenen
+Posterior tibial vein|Venae tibiales posteriores|Hintere Schienbeinvenen
+Fibular vein|Venae fibulares|Wadenbeinvenen
+Lateral circumflex femoral vein|Vena circumflexa femoris lateralis|Äußere Oberschenkelkranzvene
+Medial circumflex femoral vein|Vena circumflexa femoris medialis|Innere Oberschenkelkranzvene
+Dorsal venous arch of foot|Arcus venosus dorsalis pedis|Venenbogen des Fußrückens
+Dorsal venous network of hand|Rete venosum dorsale manus|Venennetz des Handrückens
+Internal thoracic vein|Vena thoracica interna|Innere Brustkorbvene
+Lumbar vein|Vena lumbalis|Lendenvene
+Ascending lumbar vein|Vena lumbalis ascendens|Aufsteigende Lendenvene

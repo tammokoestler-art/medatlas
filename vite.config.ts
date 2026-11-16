@@ -11,7 +11,11 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg'],
-      workbox: { globPatterns: ['**/*.{js,css,html,svg,glb,wasm,png}'], maximumFileSizeToCacheInBytes: 8_000_000 },
+      workbox: {
+        // Die großen Ganzkörper-Modelle werden nicht vorab geladen, sondern beim ersten Ansehen gespeichert.
+        globPatterns: ['**/*.{js,css,html,svg,wasm,png}', 'models/bein-*.glb'], maximumFileSizeToCacheInBytes: 8_000_000,
+        runtimeCaching: [{ urlPattern: /\/models\/.*\.glb$/, handler: 'CacheFirst', options: { cacheName: 'modelle', expiration: { maxEntries: 40 } } }],
+      },
       manifest: {
         name: 'MedAtlas – Medizin lernen', short_name: 'MedAtlas', lang: 'de', start_url: './', display: 'standalone',
         background_color: '#0f1218', theme_color: '#0f1218',

@@ -8,8 +8,9 @@ Nutzer: Schüler ohne Vorwissen, will Vorklinik (Physikum, ÄApprO 2002 / IMPP-G
 - `npm run inhalte` – prüft `content/` und erzeugt `src/generated/inhalte.json`; bricht bei Fehlern mit Liste ab
 - `npm run build` – Inhalte + Typprüfung + Produktions-Build nach `dist/`
 - `npm run preview` – gebaute App auf Port 4173
-- `npm run rundgang` – automatischer Rundgang mit Playwright gegen die Vorschau (20 Prüfungen, Bilder in `tests/bilder/`)
+- `npm run rundgang` – automatischer Rundgang mit Playwright gegen die Vorschau (23 Prüfungen, Bilder in `tests/bilder/`)
 - `npm run modell:bein -- <Ordner mit BodyParts3D-OBJ>` – baut `public/models/bein-rechts.glb` neu
+- Ganzkörper-Atlas: erst `python3 scripts/koerper/szene_erzeugen.py <BodyParts3D-Ordner>` (erzeugt `content/grundlagen/anatomie/ganzkoerper.szene.json`), dann `npm run modell:koerper -- <Ordner mit OBJ>` (baut `public/models/koerper-<schicht>.glb`)
 
 ## Aufbau
 - `content/` – **alle Inhalte**, Ordner = Baum. Nie Inhalte in `src/` schreiben.
@@ -54,6 +55,9 @@ Hierarchie: Bereich → Fachbereich (hat `farbe` + `icon`) → Themengebiet → 
 - Jede Struktur in `*.szene.json`: `id` = Mesh-Name, `lat`, `de`, `schicht`, `art`, `region`, optional `einheit`, `info`.
 - BodyParts3D enthält keine Beinnerven. Die fünf Nerven sind in `modell-bein.mjs` als **schematische Röhren** aus den Lagen der Nachbarstrukturen berechnet und mit `schematisch: true` markiert. Nicht als exakte Anatomie ausgeben.
 - Beim Laden der GLB immer die Knoten-Matrix mit anwenden (Quantisierung), siehe `Viewer3D.tsx`.
+- **Ganzkörper-Atlas** (`ganzkoerper.szene.json`, 2234 Strukturen): Die Datei wird erzeugt – nicht von Hand bearbeiten. Namen pflegt man in `scripts/koerper/namen.txt` (`englisch|latein|deutsch`, englischer Name ohne „right/left“), danach Szene neu erzeugen. Leeres Latein bei Muskeln heißt „Musculus + englischer Name“. Was in der Tabelle fehlt, bleibt englisch und wird in der App als „noch nicht übersetzt“ markiert. Namen nur eintragen, wenn sie sicher sind.
+- Eine Szene hat entweder `modell` (eine Datei) oder `datei` je Schicht; Schichten werden erst geladen, wenn sie sichtbar sind. `start` legt fest, welche Schichten anfangs an sind, `rahmen` den Kameraausschnitt.
+- Im Datensatz fehlen periphere Nerven, große Teile der Leber, Bauchwand- und Gesichtsmuskeln und Knochenhäute. Das steht unter „Quellen & Lizenzen“ und darf nicht verschwiegen werden. Vollständiger wäre Z-Anatomy (CC BY-SA 4.0, braucht GitHub-Zugriff und Blender).
 
 ## Arbeitsweise
 - Vor dem Zeigen: `npm run build`, Vorschau starten, `npm run rundgang` – alle Prüfungen müssen OK sein, Konsolenfehler leer.

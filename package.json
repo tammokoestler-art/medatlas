@@ -9,6 +9,7 @@
     "build": "npm run inhalte && tsc --noEmit && vite build",
     "preview": "vite preview",
     "modell:bein": "node scripts/modell-bein.mjs",
+    "modell:koerper": "node scripts/modell-koerper.mjs",
     "rundgang": "node tests/rundgang.cjs"
   },
   "dependencies": {

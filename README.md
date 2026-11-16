@@ -12,11 +12,14 @@ npm run dev        # http://localhost:5173
 Fertig gebaut: `npm run build && npm run preview` (http://localhost:4173).
 
 ## Stand
+**3D-Atlas Ganzer Körper**: 2234 Strukturen in sieben Schichten (Haut-Silhouette, Muskeln, Arterien, Venen, Gehirn und Nerven, Organe, Skelett); 1201 davon lateinisch und meist deutsch benannt, der Rest noch englisch.
+
 Pilotmodul **Untere Extremität**: 22 Lerneinheiten, 3D-Bein (126 Strukturen), Mindmap, 46 Karteikarten, 21 Quizfragen + 3D-Benennquiz. Dazu 3 Terminologie-Einheiten mit Trainer (74 Wortbausteine) und der Leitfaden **ABCDE-Schema**.
 
 ## Nächste Schritte (Ideen)
 - Wortbaustein-Liste auf ca. 90 erweitern, Bausteine in Begriffen verlinken
-- Nerven und lateinische Namen aus Z-Anatomy (CC BY-SA 4.0) übernehmen
+- Namenstabelle des Ganzkörper-Atlas vervollständigen (`scripts/koerper/namen.txt`), v. a. Gefäßäste und Organteile
+- Periphere Nerven und fehlende Muskeln aus Z-Anatomy (CC BY-SA 4.0) ergänzen
 - Weitere Leitfäden: BLS, ALS, Polytrauma, Atemweg, Sepsis
 - Karten aus dem 3D-Modell erzeugen, Lückentext-Karten, Wochenziel statt harter Serie
 - Sicht „Organsystem“ über Tags

@@ -8,13 +8,13 @@ export interface Einheit extends Basis {
   verwandt: string[]; zu_pruefen: string[]; quellen: string[]; abschnitte: { titel: string; html: string }[]; text: string;
 }
 export interface Struktur {
-  id: string; lat: string; de: string; schicht: string; art: string; region: string;
+  id: string; lat: string; de: string; en?: string; seite?: string; schicht: string; art: string; region: string;
   fma?: string; schematisch?: boolean; einheit?: string; info?: string;
 }
 export interface Szene extends Basis {
-  typ: 'szene'; modell: string;
+  typ: 'szene'; modell?: string; rahmen?: number[][]; start?: Record<string, 'an' | 'durch' | 'aus'>;
   quelle: { name: string; urheber: string; lizenz: string; lizenzUrl: string; url: string; hinweis?: string };
-  schichten: { id: string; titel: string; farbe: string }[]; strukturen: Struktur[];
+  schichten: { id: string; titel: string; farbe: string; datei?: string }[]; strukturen: Struktur[];
 }
 export interface Mindmap extends Basis {
   typ: 'mindmap'; knoten: { id: string; text: string; unter?: string; einheit?: string; notiz?: string }[];
@@ -67,6 +67,8 @@ export const TYP_NAME: Record<Knoten['typ'], string> = {
   ordner: 'Ordner', einheit: 'Lerneinheit', szene: '3D-Modell', mindmap: 'Mindmap', leitfaden: 'Leitfaden', karten: 'Karteikarten', quiz: 'Quiz', trainer: 'Trainer',
 };
 export const link = (id: string, param = '') => `/n/${id}${param}`;
+/** Anzeigename einer 3D-Struktur: lateinisch, sonst der englische Name aus dem Datensatz. */
+export const strukturName = (s: Struktur) => s.lat || s.en || s.id;
 /** **fett** in Karten- und Quiztexten. */
 export const fett = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 export function mischen<T>(liste: T[]): T[] {
